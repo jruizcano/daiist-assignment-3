@@ -1,0 +1,50 @@
+{
+  "status": "needs_review",
+  "grade": {
+    "correct": 0,
+    "supported": 0,
+    "correct_reason": "The final answer does not provide the requested comparison or periods; it incorrectly asserts insufficient evidence. It also fails to identify the latest completed fiscal year and the growth figures for both DoorDash and Uber as requested.",
+    "supported_reason": "No factual claims are made that can be traced to the retrieved passages; the answer merely states uncertainty without substantiating with the needed numbers or periods.",
+    "evidence_sufficiency": "none",
+    "failure_categories": [
+      "retrieval_miss"
+    ],
+    "failure_reason": " Essential requested facts (latest completed fiscal year revenue growth for DoorDash and Uber from their IPO prospectuses) are not present in the final answer. The retrieved passages contain some related figures (e.g., Uber 2018 vs 2017 growth and DoorDash prospectus context) but do not deliver a direct, equivalent-period comparison as asked.",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-ebe97ee2bbe9bb4325ba",
+        "quote": "2017 Compared to 2018. Ridesharing revenue for 2018 increased by $2.3 billion, or 33%, to $9.2 billion compared to $6.9 billion in 2017."
+      },
+      {
+        "chunk_id": "b_paragraph-ebe97ee2bbe9bb4325ba",
+        "quote": "Uber Eats revenue for 2018 increased by $0.9 billion, or 149%, to $1.5 billion compared to $0.6 billion in 2017."
+      },
+      {
+        "chunk_id": "b_paragraph-b6d067597a753b4d4a75",
+        "quote": "EXPERTS The consolidated financial statements of DoorDash, Inc. and subsidiaries as of December 31, 2018 and 2019..."
+      }
+    ]
+  },
+  "validation_errors": [
+    "Judge evidence quote or chunk ID does not match",
+    "Unsupported grade requires unsupported_claim diagnosis"
+  ],
+  "cost_usd": 0.0006302,
+  "usage": {
+    "prompt_tokens": 3292,
+    "completion_tokens": 1164,
+    "total_tokens": 4456,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 768,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "8cb1381f57b2cc8a2c2fe4a596129ca60747aaf38316a0853b74f36a578c908d",
+  "elapsed_seconds": 8.130649200000335
+}

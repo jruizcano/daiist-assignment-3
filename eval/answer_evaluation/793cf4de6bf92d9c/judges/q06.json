@@ -1,0 +1,47 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 0,
+    "supported": 1,
+    "correct_reason": "The user asked for three examples; the final answer provides only one example.",
+    "supported_reason": "The included claim about COVID-19 risk is supported by the retrieved passage, but other two requested risks are omitted.",
+    "evidence_sufficiency": "partial",
+    "failure_categories": [
+      "wrong_answer_from_right_passage"
+    ],
+    "failure_reason": "Retrieved sources contain multiple disclosed risks (e.g., COVID-19, regulatory/intl risks), but the answer omits them and provides only COVID-19 as an example.",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-0162f6f6ba8da0e765b6",
+        "quote": "The COVID-19 pandemic and the impact of actions to mitigate the COVID-19 pandemic have materially adversely impacted and will continue to materially adversely impact our business, results of operations, and financial condition."
+      },
+      {
+        "chunk_id": "b_paragraph-9b8ad24bff0c4a88b87f",
+        "quote": "In addition, certain regions where we operate have higher rates of violent crime or more relaxed safety standards, which can lead to more safety and security incidents, and may adversely impact the adoption of our platform in those regions and elsewhere."
+      },
+      {
+        "chunk_id": "b_paragraph-cd82df184e1c3268258e",
+        "quote": "If we are unable to manage the risks presented by our business model internationally, our business, results of operations, and financial condition would be materially adversely affected."
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.00190442,
+  "usage": {
+    "prompt_tokens": 6786,
+    "completion_tokens": 4028,
+    "total_tokens": 10814,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3712,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "6a3c4b5099b4996f6f20649413f0213cb822891316ddb22e6ed710f2b7ad7764",
+  "elapsed_seconds": 22.14211240000077
+}

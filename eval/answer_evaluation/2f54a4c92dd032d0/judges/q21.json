@@ -1,0 +1,36 @@
+{
+  "status": "needs_review",
+  "grade": {
+    "correct": 0,
+    "supported": 0,
+    "correct_reason": "The final answer does not satisfy the essential request: it does not provide the DoorDash and Uber revenue growth comparisons and their periods, nor explain limitations.",
+    "supported_reason": "The final answer makes a meta claim about evidence sufficiency but provides no citations or direct conclusions from the retrieved passages to support the requested comparison.",
+    "evidence_sufficiency": "none",
+    "failure_categories": [
+      "wrong_refusal"
+    ],
+    "failure_reason": "The question appears answerable from the retrieved passages (Uber 2018 vs 2017 growth data is present); the answer chooses to refuse instead of providing the requested comparison.",
+    "evidence": []
+  },
+  "validation_errors": [
+    "Unsupported grade requires unsupported_claim diagnosis"
+  ],
+  "cost_usd": 0.00131722,
+  "usage": {
+    "prompt_tokens": 3586,
+    "completion_tokens": 2960,
+    "total_tokens": 6546,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2816,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "ed2cbb90d02b2d47c394a26f73556e86810aec585adce0f4ebaf6a6b03fb9424",
+  "elapsed_seconds": 19.50205089999872
+}

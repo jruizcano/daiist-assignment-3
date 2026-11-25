@@ -1,0 +1,60 @@
+{
+  "test": "isolated_add_document",
+  "created_utc": "2026-11-25T18:12:06.562083+00:00",
+  "checks": [
+    "stdio initialization and tool discovery",
+    "new document ingestion via MCP",
+    "renamed duplicate skipped",
+    "newly added evidence retrieved",
+    "five results with citations",
+    "original corpus vectors unchanged"
+  ],
+  "tools": [
+    "add_document",
+    "search"
+  ],
+  "addition": {
+    "status": "added",
+    "document_id": "added_92e44c83db36fe5ba77d23f8",
+    "source_url": "file:///C:/Users/justo/AppData/Local/Temp/mcp-integration-lmovgyvt/corpus/added/added_92e44c83db36fe5ba77d23f8.html",
+    "chunks_by_design": {
+      "a_fixed": 1,
+      "b_paragraph": 1,
+      "c_heading_path": 1
+    },
+    "new_vectors": 3,
+    "embedding_tokens": 123,
+    "embedding_cost_usd": 2.46e-06,
+    "index_MB": 77.264
+  },
+  "search": {
+    "query": "What code name does the synthetic integration-test observatory use?",
+    "design": "b_paragraph",
+    "result_count": 5,
+    "top_result": {
+      "id": "b_paragraph-8ac78ffdcc9eefeb3481",
+      "document_id": "added_92e44c83db36fe5ba77d23f8",
+      "company": "Integration-test observatory",
+      "section": "Front matter",
+      "heading_path": [
+        "Integration-test observatory",
+        "Front matter",
+        "Synthetic fixture"
+      ],
+      "source_url": "file:///C:/Users/justo/AppData/Local/Temp/mcp-integration-lmovgyvt/corpus/added/added_92e44c83db36fe5ba77d23f8.html",
+      "citation_url": "file:///C:/Users/justo/AppData/Local/Temp/mcp-integration-lmovgyvt/corpus/added/added_92e44c83db36fe5ba77d23f8.html",
+      "source_block_ids": [
+        "added_92e44c83db36fe5ba77d23f8-b00001",
+        "added_92e44c83db36fe5ba77d23f8-b00002"
+      ],
+      "attached_note_ids": [],
+      "unresolved_footnotes": [],
+      "kind": "prose",
+      "text": "Synthetic fixture\n\nThis is a synthetic integration-test document, not financial evidence. The synthetic observatory uses code name Copper Finch 482. Its code name is Copper Finch 482.",
+      "rank": 1,
+      "score": 0.685423731803894
+    }
+  },
+  "status": "passed",
+  "temporary_test_index_removed": true
+}

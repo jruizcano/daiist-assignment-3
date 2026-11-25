@@ -1,0 +1,32 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The question is unanswerable from the retrieved passages; the final answer correctly notes insufficient evidence to compute Uber's first-year post-IPO return and does not invent a figure.",
+    "supported_reason": "The final answer contains no factual claims beyond noting lack of evidence, which is supported by the retrieved passages.",
+    "evidence_sufficiency": "none",
+    "failure_categories": [],
+    "failure_reason": "The answer appropriately refuses due to insufficient evidence; no retrieval failure or incorrect claim.",
+    "evidence": []
+  },
+  "validation_errors": [],
+  "cost_usd": 0.00089012,
+  "usage": {
+    "prompt_tokens": 5484,
+    "completion_tokens": 1655,
+    "total_tokens": 7139,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1536,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "c5b7881b28255489d1ff42af61d8bdd946b11b07dcacd95eef030ad7810efc4a",
+  "elapsed_seconds": 11.729939199998626
+}

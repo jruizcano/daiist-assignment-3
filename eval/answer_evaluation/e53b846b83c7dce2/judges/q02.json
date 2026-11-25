@@ -1,0 +1,52 @@
+{
+  "status": "needs_review",
+  "grade": {
+    "correct": 0,
+    "supported": 0,
+    "correct_reason": "The final answer does not provide the requested revenue figure for DoorDash for the year ended December 31, 2019, and instead states uncertainty. The retrieved passages include DoorDash financial statements that would contain the revenue amount, but the answer fails to extract or cite the actual number.",
+    "supported_reason": "The final answer makes a generic uncertainty claim without deriving any factual claim from the retrieved passages. No revenue figure is quoted or cited.",
+    "evidence_sufficiency": "partial",
+    "failure_categories": [
+      "retrieval_miss"
+    ],
+    "failure_reason": "Essential requested fact (DoorDash 2019 revenue) is present in the retrieved material (statements sections), but the answer did not provide it or quote it. The answer fails to extract the required revenue figure.",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-23654e7747dce7dee61c",
+        "quote": "DoorDash, Inc. Consolidated Statements of Operations"
+      },
+      {
+        "chunk_id": "b_paragraph-fe843becc1c8efc67ac3",
+        "quote": "DoorDash, Inc. Consolidated Statements of Comprehensive Loss"
+      },
+      {
+        "chunk_id": "b_paragraph-3078717d7c333bfa0b36",
+        "quote": "DoorDash, Inc. Consolidated Statements of Redeemable Convertible Preferred Stock and Stockholders’ Deficit"
+      }
+    ]
+  },
+  "validation_errors": [
+    "Judge evidence quote or chunk ID does not match",
+    "Judge evidence quote or chunk ID does not match",
+    "Judge evidence quote or chunk ID does not match",
+    "Unsupported grade requires unsupported_claim diagnosis"
+  ],
+  "cost_usd": 0.00051815,
+  "usage": {
+    "prompt_tokens": 3243,
+    "completion_tokens": 890,
+    "total_tokens": 4133,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "5b2f6c245b6edbfd2d325c81e587d306b3f1add674aece510182a008e891a0b7",
+  "elapsed_seconds": 4.544341599998006
+}

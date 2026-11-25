@@ -1,0 +1,529 @@
+[
+  {
+    "id": "q02",
+    "question": "What revenue did DoorDash report for the year ended December 31, 2019?",
+    "answer_status": "not_found",
+    "answer_errors": [],
+    "judge_errors": [
+      "Judge evidence quote or chunk ID does not match",
+      "Judge evidence quote or chunk ID does not match",
+      "Judge evidence quote or chunk ID does not match",
+      "Unsupported grade requires unsupported_claim diagnosis"
+    ],
+    "quote_diagnostics": [
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-23654e7747dce7dee61c",
+        "quote": "DoorDash, Inc. Consolidated Statements of Operations",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      },
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-fe843becc1c8efc67ac3",
+        "quote": "DoorDash, Inc. Consolidated Statements of Comprehensive Loss",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      },
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-3078717d7c333bfa0b36",
+        "quote": "DoorDash, Inc. Consolidated Statements of Redeemable Convertible Preferred Stock and Stockholders’ Deficit",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "question": "What revenue did Uber report for the year ended December 31, 2019?",
+    "answer_status": "not_found",
+    "answer_errors": [],
+    "judge_errors": [
+      "Judge evidence quote or chunk ID does not match"
+    ],
+    "quote_diagnostics": [
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-63578cdb65f165a48261",
+        "quote": "Total revenue |  | $ | 11,270 |",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "question": "Give three examples of risks highlighted in Uber's Summary Risk Factors.",
+    "answer_status": "answered",
+    "answer_errors": [],
+    "judge_errors": [
+      "Unsupported grade requires unsupported_claim diagnosis"
+    ],
+    "quote_diagnostics": []
+  },
+  {
+    "id": "q06",
+    "question": "Give three examples of risks highlighted in Airbnb's Risk Factors Summary.",
+    "answer_status": "answered",
+    "answer_errors": [],
+    "judge_errors": [
+      "Unsupported grade requires unsupported_claim diagnosis"
+    ],
+    "quote_diagnostics": []
+  },
+  {
+    "id": "q10",
+    "question": "Do the DoorDash, Uber and Airbnb IPOs include an underwriters' over-allotment (greenshoe) option? For each, state the share limit, exercise period, and who sells the additional shares.",
+    "answer_status": "partial",
+    "answer_errors": [],
+    "judge_errors": [
+      "Judge evidence quote or chunk ID does not match",
+      "Judge evidence quote or chunk ID does not match",
+      "Unsupported grade requires unsupported_claim diagnosis"
+    ],
+    "quote_diagnostics": [
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-df56e8f95659f3e35b8",
+        "quote": "The following table shows the per share and total public offering price, underwriting discounts and commissions, and proceeds before expenses to us and the selling stockholders. These amounts are shown assuming both no exercise and full exercise of the underwriters’ over-allotment option.",
+        "exact_matches_in_other_retrieved_chunks": [
+          "b_paragraph-dbf56e8f95659f3e35b8"
+        ],
+        "finding": "wrong_citation_link"
+      },
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-ce3ee6ffbfe0a24a40b7",
+        "quote": "Directed Share Program ... up to 3,500,000 shares of Class A common stock ... for sale at the initial public offering price through a directed share program",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "question": "What final IPO offer price per share is stated in Airbnb's prospectus?",
+    "answer_status": "blocked",
+    "answer_errors": [
+      "Claim 1: citation ID was not retrieved."
+    ],
+    "judge_errors": [],
+    "quote_diagnostics": [
+      {
+        "origin": "answer",
+        "chunk_id": "airbnb_2020_ipo-b00001",
+        "quote": "This is an initial public offering of shares of Class A common stock of Airbnb, Inc. We are offering 50,000,000 shares of our Class A common stock. The selling stockholders identified in this prospectus are offering 1,323,531 shares of Class A common stock. We will not receive any of the proceeds from the sale of shares by the selling stockholders. Prior to this offering, there has been no public market for our Class A common stock. The initial public offering price is $68.00 per share. Our Class A common stock has been approved for listing on the Nasdaq Global Select Market under the symbol “ABNB.”",
+        "exact_matches_in_other_retrieved_chunks": [
+          "b_paragraph-2966e29f834f5e357bd7",
+          "b_paragraph-01c6400b19fce3e6f720"
+        ],
+        "finding": "wrong_citation_link"
+      }
+    ],
+    "exact_citation_repairs": [
+      {
+        "claim": 1,
+        "old_chunk_id": "airbnb_2020_ipo-b00001",
+        "new_chunk_id": "b_paragraph-2966e29f834f5e357bd7",
+        "quote": "This is an initial public offering of shares of Class A common stock of Airbnb, Inc. We are offering 50,000,000 shares of our Class A common stock. The selling stockholders identified in this prospectus are offering 1,323,531 shares of Class A common stock. We will not receive any of the proceeds from the sale of shares by the selling stockholders. Prior to this offering, there has been no public market for our Class A common stock. The initial public offering price is $68.00 per share. Our Class A common stock has been approved for listing on the Nasdaq Global Select Market under the symbol “ABNB.”",
+        "reason": "Exact quotation found in retrieved chunks from one document"
+      }
+    ],
+    "remaining_errors_after_relink": []
+  },
+  {
+    "id": "q14",
+    "question": "What are DoorDash's gross IPO proceeds and estimated net proceeds after underwriting discounts and offering expenses?",
+    "answer_status": "blocked",
+    "answer_errors": [
+      "Claim 1: quotation does not match the cited passage."
+    ],
+    "judge_errors": [],
+    "quote_diagnostics": [
+      {
+        "origin": "answer",
+        "chunk_id": "b_paragraph-d95ac10cf359a9ca8749",
+        "quote": "Proceeds, before expenses, to DoorDash, Inc. |  | $ | 3,285,216,000 |",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ],
+    "exact_citation_repairs": [],
+    "remaining_errors_after_relink": [
+      "Claim 1: quotation does not match the cited passage."
+    ]
+  },
+  {
+    "id": "q15",
+    "question": "What are Airbnb's own gross IPO proceeds and estimated net proceeds, excluding the additional-share option and selling-stockholder proceeds?",
+    "answer_status": "blocked",
+    "answer_errors": [
+      "Claim 1: dollar amount is not established in the quoted evidence (including units)."
+    ],
+    "judge_errors": [],
+    "quote_diagnostics": [],
+    "exact_citation_repairs": [],
+    "remaining_errors_after_relink": [
+      "Claim 1: dollar amount is not established in the quoted evidence (including units)."
+    ]
+  },
+  {
+    "id": "q16",
+    "question": "What are Uber's gross IPO proceeds and estimated net proceeds, excluding the separate PayPal private placement and selling-stockholder proceeds?",
+    "answer_status": "answered",
+    "answer_errors": [],
+    "judge_errors": [
+      "Judge evidence quote or chunk ID does not match"
+    ],
+    "quote_diagnostics": [
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-6767e3e276d10e4a5a3d",
+        "quote": "Gross IPO proceeds are $8.1 billion.",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "question": "Which competitors does DoorDash identify in the Competition subsection of its Business section?",
+    "answer_status": "answered",
+    "answer_errors": [],
+    "judge_errors": [
+      "Judge evidence quote or chunk ID does not match"
+    ],
+    "quote_diagnostics": [
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-bb8e8ac3f64c77314192",
+        "quote": "Local food delivery logistics, the largest category of our business today, is fragmented and intensely competitive. In the United States, we compete with other local food delivery logistics platforms including Uber Eats, Grubhub, and Postmates, chain merchants that have their own online ordering platforms, pizza companies, such as Domino’s, other merchants which own and operate their own delivery fleets, grocers and grocery delivery services, and companies that provide point of sale solutions and merchant delivery services. ... With Drive, and as we expand into other industry verticals beyond food, we expect to compete with large Internet companies with substantial resources, users and brand power, such as Amazon and Google.",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "question": "Which competitors does Uber identify for Personal Mobility, Uber Eats and Uber Freight in its Business section?",
+    "answer_status": "blocked",
+    "answer_errors": [
+      "Claim 2: quotation does not match the cited passage."
+    ],
+    "judge_errors": [],
+    "quote_diagnostics": [
+      {
+        "origin": "answer",
+        "chunk_id": "b_paragraph-ad9da09b0fa069794a2b",
+        "quote": "• Uber Eats : Our Uber Eats offering competes with numerous companies in the meal delivery space in various regions for Drivers, consumers, and restaurants, including GrubHub, DoorDash, Deliveroo, Swiggy, Postmates, Zomato, Delivery Hero, Just Eat, Takeaway.com, and Amazon. Our Uber Eats offering also competes with restaurants, meal kit delivery services, grocery delivery services, and traditional grocers.",
+        "exact_matches_in_other_retrieved_chunks": [
+          "b_paragraph-b81aa02af5af4f34a023"
+        ],
+        "finding": "wrong_citation_link"
+      }
+    ],
+    "exact_citation_repairs": [
+      {
+        "claim": 2,
+        "old_chunk_id": "b_paragraph-ad9da09b0fa069794a2b",
+        "new_chunk_id": "b_paragraph-b81aa02af5af4f34a023",
+        "quote": "• Uber Eats : Our Uber Eats offering competes with numerous companies in the meal delivery space in various regions for Drivers, consumers, and restaurants, including GrubHub, DoorDash, Deliveroo, Swiggy, Postmates, Zomato, Delivery Hero, Just Eat, Takeaway.com, and Amazon. Our Uber Eats offering also competes with restaurants, meal kit delivery services, grocery delivery services, and traditional grocers.",
+        "reason": "Exact quotation found in retrieved chunks from one document"
+      }
+    ],
+    "remaining_errors_after_relink": []
+  },
+  {
+    "id": "q20",
+    "question": "Identify three risk themes shared by DoorDash and Uber, citing each company's IPO prospectus.",
+    "answer_status": "blocked",
+    "answer_errors": [
+      "Non-answer status cannot contain factual claims.",
+      "Claim 1: citation ID was not retrieved."
+    ],
+    "judge_errors": [],
+    "quote_diagnostics": [
+      {
+        "origin": "answer",
+        "chunk_id": "doordash_2020_ipo-b00172",
+        "quote": "Risk Factors Summary",
+        "exact_matches_in_other_retrieved_chunks": [
+          "b_paragraph-bebfd2d01896a0a24753"
+        ],
+        "finding": "wrong_citation_link"
+      }
+    ],
+    "exact_citation_repairs": [
+      {
+        "claim": 1,
+        "old_chunk_id": "doordash_2020_ipo-b00172",
+        "new_chunk_id": "b_paragraph-bebfd2d01896a0a24753",
+        "quote": "Risk Factors Summary",
+        "reason": "Exact quotation found in retrieved chunks from one document"
+      }
+    ],
+    "remaining_errors_after_relink": [
+      "Non-answer status cannot contain factual claims."
+    ]
+  },
+  {
+    "id": "q21",
+    "question": "Compare DoorDash's and Uber's reported revenue growth for the latest completed fiscal year in each IPO prospectus. Identify the periods and explain the comparison's limitation.",
+    "answer_status": "not_found",
+    "answer_errors": [],
+    "judge_errors": [
+      "Judge evidence quote or chunk ID does not match",
+      "Unsupported grade requires unsupported_claim diagnosis"
+    ],
+    "quote_diagnostics": [
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-b6d067597a753b4d4a75",
+        "quote": "EXPERTS The consolidated financial statements of DoorDash, Inc. and subsidiaries as of December 31, 2018 and 2019...",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ]
+  },
+  {
+    "id": "q25",
+    "question": "What was Uber's share-price percentage return over its first year after the IPO, measured relative to its IPO offer price?",
+    "answer_status": "not_found",
+    "answer_errors": [],
+    "judge_errors": [
+      "Judge evidence quote or chunk ID does not match"
+    ],
+    "quote_diagnostics": [
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-783e0488b606b98d318c",
+        "quote": "The following table shows the per share and total public offering price, underwriting discounts and commissions, and proceeds before expenses to us and the selling stockholders. These amounts are shown assuming both no exercise and full exercise of the underwriters’ over-allotment option.\n |  |  |  |  |  | Total | Total | Total | Total | Total | Total | \nPublic offering price |  | $ | 45.00 |  |  | $ | 8,100,000,000 |  |  | $ | 9,315,000,000 | \nUnderwriting discounts and commissions to be paid by: |  |  |  |  |  |  |  |  |  |  |  | \nUs |  | $ | 0.59 |  |  | $ | 106,200,000 |  |  | $ | 106,200,000 | \nThe selling stockholders |  | $ | 0.59 |  |  |  | — |  |  | $ | 15,930,000 | \nProceeds, before expenses, to us |  | $ | 44.41 |  |  | $ | 7,993,800,000 |  |  | $ | 7,993,800,000 |",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ]
+  },
+  {
+    "id": "q26",
+    "question": "Did Uber, Airbnb and DoorDash actually use their IPO proceeds as described in their prospectuses?",
+    "answer_status": "not_found",
+    "answer_errors": [],
+    "judge_errors": [
+      "Judge evidence quote or chunk ID does not match",
+      "Judge evidence quote or chunk ID does not match",
+      "Judge evidence quote or chunk ID does not match"
+    ],
+    "quote_diagnostics": [
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-0fce718a45574757474e",
+        "quote": "Proceeds to us, before expenses | 66.5584 |  | 3,327,920,000",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      },
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-fdcc5daf29c04051c743",
+        "quote": "This summary highlights selected information that is presented in greater detail elsewhere in this prospectus. This summary is not complete and does not contain all of the information you should consider before investing in our common stock.",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      },
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-d95ac10cf359a9ca8749",
+        "quote": "Proceeds, before expenses, to DoorDash, Inc. |  | $ | 3,285,216,000",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ]
+  },
+  {
+    "id": "q27",
+    "question": "What drove revenue growth for Uber, Airbnb and DoorDash in the latest completed fiscal year covered by each IPO prospectus, and how did those drivers differ?",
+    "answer_status": "blocked",
+    "answer_errors": [
+      "Claim 1: quotation does not match the cited passage.",
+      "Claim 1: quotation does not match the cited passage."
+    ],
+    "judge_errors": [],
+    "quote_diagnostics": [
+      {
+        "origin": "answer",
+        "chunk_id": "b_paragraph-c9d9c6df140d396fcde4",
+        "quote": "In 2018, Gross Bookings grew to $49.8 billion, up 45% from $34.4 billion in 2017. Over the same period, revenue reached $11.3 billion, up 42% from $7.9 billion in the prior year.",
+        "exact_matches_in_other_retrieved_chunks": [
+          "b_paragraph-086cd3ce0f5b4a02a59a"
+        ],
+        "finding": "wrong_citation_link"
+      },
+      {
+        "origin": "answer",
+        "chunk_id": "b_paragraph-c9d9c6df140d396fcde4",
+        "quote": "Ridesharing revenue for 2018 increased by $2.3 billion, or 33%, to $9.2 billion compared to $6.9 billion in 2017.",
+        "exact_matches_in_other_retrieved_chunks": [
+          "b_paragraph-ebe97ee2bbe9bb4325ba"
+        ],
+        "finding": "wrong_citation_link"
+      }
+    ],
+    "exact_citation_repairs": [
+      {
+        "claim": 1,
+        "old_chunk_id": "b_paragraph-c9d9c6df140d396fcde4",
+        "new_chunk_id": "b_paragraph-086cd3ce0f5b4a02a59a",
+        "quote": "In 2018, Gross Bookings grew to $49.8 billion, up 45% from $34.4 billion in 2017. Over the same period, revenue reached $11.3 billion, up 42% from $7.9 billion in the prior year.",
+        "reason": "Exact quotation found in retrieved chunks from one document"
+      },
+      {
+        "claim": 1,
+        "old_chunk_id": "b_paragraph-c9d9c6df140d396fcde4",
+        "new_chunk_id": "b_paragraph-ebe97ee2bbe9bb4325ba",
+        "quote": "Ridesharing revenue for 2018 increased by $2.3 billion, or 33%, to $9.2 billion compared to $6.9 billion in 2017.",
+        "reason": "Exact quotation found in retrieved chunks from one document"
+      }
+    ],
+    "remaining_errors_after_relink": []
+  },
+  {
+    "id": "q28",
+    "question": "How does Uber generate revenue, according to its IPO prospectus?",
+    "answer_status": "blocked",
+    "answer_errors": [
+      "Claim 1: quotation does not match the cited passage."
+    ],
+    "judge_errors": [],
+    "quote_diagnostics": [
+      {
+        "origin": "answer",
+        "chunk_id": "b_paragraph-c9d9c6df140d396fcde4",
+        "quote": "Core Platform revenue:\nRidesharing revenue:  ... (omitted for brevity)",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ],
+    "exact_citation_repairs": [],
+    "remaining_errors_after_relink": [
+      "Claim 1: quotation does not match the cited passage."
+    ]
+  },
+  {
+    "id": "q30",
+    "question": "How does DoorDash generate revenue, according to its IPO prospectus?",
+    "answer_status": "blocked",
+    "answer_errors": [
+      "Claim 1: quotation does not match the cited passage.",
+      "Claim 2: quotation does not match the cited passage.",
+      "Claim 3: quotation does not match the cited passage.",
+      "Claim 4: quotation does not match the cited passage.",
+      "Claim 5: quotation does not match the cited passage."
+    ],
+    "judge_errors": [],
+    "quote_diagnostics": [
+      {
+        "origin": "answer",
+        "chunk_id": "b_paragraph-00ee31e8a34103914066",
+        "quote": "The Company generates a substantial majority of our revenue from orders completed through the DoorDash Marketplace.",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      },
+      {
+        "origin": "answer",
+        "chunk_id": "b_paragraph-00ee31e8a34103914066",
+        "quote": "We charge partner merchants commissions at an agreed-upon rate applied to the total dollar value of goods ordered in exchange for the use of our local logistics platform and we charge fees to consumers for use of our platform to arrange for delivery services.",
+        "exact_matches_in_other_retrieved_chunks": [
+          "b_paragraph-f077037dd1befdd6867b"
+        ],
+        "finding": "wrong_citation_link"
+      },
+      {
+        "origin": "answer",
+        "chunk_id": "b_paragraph-00ee31e8a34103914066",
+        "quote": "We also generate revenue from membership fees paid by consumers for DashPass, which is recognized as part of the DoorDash Marketplace.",
+        "exact_matches_in_other_retrieved_chunks": [
+          "b_paragraph-f077037dd1befdd6867b"
+        ],
+        "finding": "wrong_citation_link"
+      },
+      {
+        "origin": "answer",
+        "chunk_id": "b_paragraph-00ee31e8a34103914066",
+        "quote": "Revenue generated from DashPass subscriptions is recognized on a ratable basis over the contractual period, which is generally one month to one year depending on the type of subscription purchased by the consumer.",
+        "exact_matches_in_other_retrieved_chunks": [
+          "b_paragraph-f077037dd1befdd6867b"
+        ],
+        "finding": "wrong_citation_link"
+      },
+      {
+        "origin": "answer",
+        "chunk_id": "b_paragraph-00ee31e8a34103914066",
+        "quote": "In addition, the Company also generates revenue from Drive by collecting per-order fees from merchants that use its local logistics platform to arrange for delivery services that fulfill demand generated through their own channels.",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ],
+    "exact_citation_repairs": [
+      {
+        "claim": 2,
+        "old_chunk_id": "b_paragraph-00ee31e8a34103914066",
+        "new_chunk_id": "b_paragraph-f077037dd1befdd6867b",
+        "quote": "We charge partner merchants commissions at an agreed-upon rate applied to the total dollar value of goods ordered in exchange for the use of our local logistics platform and we charge fees to consumers for use of our platform to arrange for delivery services.",
+        "reason": "Exact quotation found in retrieved chunks from one document"
+      },
+      {
+        "claim": 3,
+        "old_chunk_id": "b_paragraph-00ee31e8a34103914066",
+        "new_chunk_id": "b_paragraph-f077037dd1befdd6867b",
+        "quote": "We also generate revenue from membership fees paid by consumers for DashPass, which is recognized as part of the DoorDash Marketplace.",
+        "reason": "Exact quotation found in retrieved chunks from one document"
+      },
+      {
+        "claim": 4,
+        "old_chunk_id": "b_paragraph-00ee31e8a34103914066",
+        "new_chunk_id": "b_paragraph-f077037dd1befdd6867b",
+        "quote": "Revenue generated from DashPass subscriptions is recognized on a ratable basis over the contractual period, which is generally one month to one year depending on the type of subscription purchased by the consumer.",
+        "reason": "Exact quotation found in retrieved chunks from one document"
+      }
+    ],
+    "remaining_errors_after_relink": [
+      "Claim 1: quotation does not match the cited passage.",
+      "Claim 5: quotation does not match the cited passage."
+    ]
+  },
+  {
+    "id": "q31",
+    "question": "How does Airbnb generate revenue, according to its IPO prospectus?",
+    "answer_status": "answered",
+    "answer_errors": [],
+    "judge_errors": [
+      "Judge evidence quote or chunk ID does not match",
+      "Judge evidence quote or chunk ID does not match",
+      "Judge evidence quote or chunk ID does not match"
+    ],
+    "quote_diagnostics": [
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-74894fcd3a68408561f2",
+        "quote": "Airbnb presents revenue on a net basis when it acts as an agent, not as the principal, meaning revenue is presented net reflecting the service fees received from our customers to facilitate a stay.",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      },
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-a8e7d8b80a11d0aa903d",
+        "quote": "The Company generates substantially all of its revenue from facilitating guest stays at accommodations offered by hosts on the Company’s platform.",
+        "exact_matches_in_other_retrieved_chunks": [
+          "b_paragraph-8fd09a4849e0bfe64252"
+        ],
+        "finding": "wrong_citation_link"
+      },
+      {
+        "origin": "judge",
+        "chunk_id": "b_paragraph-a99d648475d4f4fa5ec5",
+        "quote": "Revenue consists of service fees, net of incentives and refunds, charged to our customers. We consider both hosts and guests to be our customers. For stays, service fees, which are charged to customers as a percentage of the value of the booking, excluding taxes, vary based on factors specific to the booking... For experiences, we only earn a host fee.",
+        "exact_matches_in_other_retrieved_chunks": [],
+        "finding": "quotation_not_found_in_retrieved_text"
+      }
+    ]
+  }
+]

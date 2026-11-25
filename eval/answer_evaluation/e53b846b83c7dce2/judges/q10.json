@@ -1,0 +1,52 @@
+{
+  "status": "needs_review",
+  "grade": {
+    "correct": 0,
+    "supported": 0,
+    "correct_reason": "Final answer makes incorrect claims (e.g., Uber greenshoe sold by underwriters; also claims not enough evidence for DoorDash and Airbnb). The essential requested details (greenshoe existence, share limit, exercise period, and seller) are not consistently provided or are misattributed.",
+    "supported_reason": "Retrieved passages show: Uber: 27,000,000 shares and that the selling stockholders offer those shares if the underwriters exercise; however, the final answer states the underwriters sell the shares, which is incorrect. DoorDash and Airbnb greenshoe-related details (existence, limits, exercise period, and selling party) are not clearly established in the retrieved passages; Airbnb shows a directed share program, not a greenshoe, and DoorDash materials do not clearly confirm a greenshoe, so relevant claims are unsupported.",
+    "evidence_sufficiency": "partial",
+    "failure_categories": [
+      "wrong_answer_from_right_passage",
+      "retrieval_miss"
+    ],
+    "failure_reason": " Uber claim incorrectly attributes who sells the additional shares; missing explicit greenshoe confirmations for DoorDash and Airbnb in the retrieved passages. Evidence excerpts provided below illustrate the Uber misread and the absence of greenshoe details for the other two.",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-12401047a771b958fa5a",
+        "quote": "Uber Technologies, Inc. is offering 180,000,000 shares of its common stock. The selling stockholders identified in this prospectus are offering 27,000,000 shares of common stock if and to the extent that the underwriters exercise their option to purchase additional shares described below."
+      },
+      {
+        "chunk_id": "b_paragraph-df56e8f95659f3e35b8",
+        "quote": "The following table shows the per share and total public offering price, underwriting discounts and commissions, and proceeds before expenses to us and the selling stockholders. These amounts are shown assuming both no exercise and full exercise of the underwriters’ over-allotment option."
+      },
+      {
+        "chunk_id": "b_paragraph-ce3ee6ffbfe0a24a40b7",
+        "quote": "Directed Share Program ... up to 3,500,000 shares of Class A common stock ... for sale at the initial public offering price through a directed share program"
+      }
+    ]
+  },
+  "validation_errors": [
+    "Judge evidence quote or chunk ID does not match",
+    "Judge evidence quote or chunk ID does not match",
+    "Unsupported grade requires unsupported_claim diagnosis"
+  ],
+  "cost_usd": 0.0007266500000000001,
+  "usage": {
+    "prompt_tokens": 4861,
+    "completion_tokens": 1209,
+    "total_tokens": 6070,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 704,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "7e4b2dc9fb44cfb03ea573e6323d7f44664273ffa1b1d9df5cab636d5fedcd3f",
+  "elapsed_seconds": 9.2501368000012
+}

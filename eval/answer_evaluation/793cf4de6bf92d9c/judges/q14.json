@@ -1,0 +1,41 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The final answer provides both the gross IPO proceeds (3,366,000,000) and the estimated net proceeds (~$3.27 billion) and these figures are supported by retrieved DoorDash prospectus passages.",
+    "supported_reason": "The numbers cited (gross proceeds of 3,366,000,000 and net proceeds of ~3.27 billion) have exact matching support in the retrieved passages (Front matter table showing 3,366,000,000 and USE OF PROCEEDS stating ~$3.27 billion).",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-d95ac10cf359a9ca8749",
+        "quote": "Initial public offering price |  | $ | 102.00 |  |  | $ | 3,366,000,000 |"
+      },
+      {
+        "chunk_id": "b_paragraph-8812844f4eb0a12b2a53",
+        "quote": "USE OF PROCEEDS\n\nWe estimate that the net proceeds to us from the sale of shares of our Class A common stock in this offering will be approximately $3.27 billion, based upon the initial public offering price of $102.00 per share and after deducting underwriting discounts and commissions and our estimated offering expenses."
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.0014296200000000002,
+  "usage": {
+    "prompt_tokens": 3098,
+    "completion_tokens": 3302,
+    "total_tokens": 6400,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3008,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "375a11a28f697d74d24c57398bb3f02d23e405a7ba97932f93418377c456b680",
+  "elapsed_seconds": 21.03961799999888
+}

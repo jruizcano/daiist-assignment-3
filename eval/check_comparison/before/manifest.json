@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-11-25T17:54:39.511225+00:00",
+  "files": {
+    "retrieval_results.jsonl": "50b4ca6fa40a1cc01ed14f1572d008891cd64fefd47782c4004c2649b7303f5c",
+    "passage_reviews.jsonl": "fa95a13afce3f2b5a49de85cf7b255e0e4390514d4e14ddc11399b1be5b0b098",
+    "passage_review_summary.json": "3fc28a8ebd3230c164ef87a81905d07f6a59e6d805a74329e1e50fe84e7b24f1",
+    "passage_human_reviews.json": "89fd2b0bc86280a05b3d8efa7581148fb6c6c80fba562509e24a2fdcdd448fb0",
+    "passage_review_rubric.txt": "2f6941d1a63a3de6fffb900ee76a7158e5ff54fe54ed12406e2222a0fbb07e29",
+    "passage_review.py": "2781fa1d697dcfa17bf6c5e262e3a0f497c28c667b03f0a79d7bb375d5074008",
+    "human_review.py": "93890621c5002cfced83c22bebc071b76fcf4e930a77cecddd44d297453848b0"
+  },
+  "description": "Frozen final v1 AI reviews, retrieved evidence and human decisions; never overwritten on rerun."
+}

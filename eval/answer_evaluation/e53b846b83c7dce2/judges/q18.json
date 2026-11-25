@@ -1,0 +1,53 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "Final answer accurately lists competitor categories (OTAs, internet search engines, listing/meta search websites, hotel chains, Chinese short-term rental competitors, and online platforms offering activities) and provides examples that match the retrieved Airbnb Business section subsections. The answer also notes that the examples are not exhaustive, aligning with the source.",
+    "supported_reason": "All factual claims (categories and examples) are drawn from the retrieved Airbnb passages, particularly the comprehensive list of competitors in the Competition for Guests subsection.",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "None",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-92f977faf6bd7098055e",
+        "quote": "• OTAs, such as Booking Holdings, including the brands Booking.com, KAYAK, Priceline.com, and Agoda.com; Expedia Group, including the brands Expedia, Vrbo, HomeAway, Hotels.com, Orbitz, and Travelocity; Trip.com Group, including the brands Ctrip.com, Trip.com, Qunar, Tongcheng-eLong, and SkyScanner; Meituan Dianping; Fliggy, a subsidiary of Alibaba; Despegar; MakeMyTrip; and other regional OTAs;"
+      },
+      {
+        "chunk_id": "b_paragraph-92f977faf6bd7098055e",
+        "quote": "• Internet search engines, such as Google, including its travel search products; Baidu; and other regional search engines;"
+      },
+      {
+        "chunk_id": "b_paragraph-92f977faf6bd7098055e",
+        "quote": "• Listing and meta search websites, such as TripAdvisor, Trivago, Mafengwo, AllTheRooms.com, and Craigslist;"
+      },
+      {
+        "chunk_id": "b_paragraph-92f977faf6bd7098055e",
+        "quote": "• Hotel chains, such as Marriott, Hilton, Accor, Wyndham, InterContinental, OYO, and Huazhu, as well as boutique hotel chains and independent hotels;"
+      },
+      {
+        "chunk_id": "b_paragraph-92f977faf6bd7098055e",
+        "quote": "• Chinese short-term rental competitors, such as Tujia, Meituan B&B, and Xiaozhu; and"
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.0005931500000000001,
+  "usage": {
+    "prompt_tokens": 4559,
+    "completion_tokens": 913,
+    "total_tokens": 5472,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 448,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "e315428e00630663e93091acdfdae0d132849ab906c0b8077e1522dd27b289ba",
+  "elapsed_seconds": 6.427383800000825
+}

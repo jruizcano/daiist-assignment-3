@@ -1,0 +1,6 @@
+{
+  "after_answer_status": "blocked",
+  "cleanup_error": "Windows file lock: query_tokens left the SQLite connection open; experiment stopped during temporary-directory cleanup.",
+  "query_embedding_tokens": 111,
+  "diagnosis": "Document was added and retrieved, but the model misquoted the annual table and omitted its million-dollar units. Raw before/after/addition artifacts are retained."
+}

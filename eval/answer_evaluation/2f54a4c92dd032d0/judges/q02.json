@@ -1,0 +1,43 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 0,
+    "supported": 1,
+    "correct_reason": "The final answer does not provide the requested revenue figure for 2019; it states insufficient evidence rather than supplying the numeric amount.",
+    "supported_reason": "The final answer's claim that the retrieved passages lack the 2019 revenue figure is supported by the retrieved passages, which show the existence of audited statements and references but do not include numeric results in the excerpt.",
+    "evidence_sufficiency": "none",
+    "failure_categories": [
+      "retrieval_miss"
+    ],
+    "failure_reason": "The essential fact (DoorDash 2019 revenue) is not present in the retrieved passages, so the answer cannot be satisfied.",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-d2e10387d52b8a25f64b",
+        "quote": "We have audited the accompanying consolidated balance sheets of DoorDash, Inc. and subsidiaries (the Company) as of December 31, 2018 and 2019, the related consolidated statements of operations, comprehensive loss, redeemable convertible preferred stock and stockholders’ deficit, and cash flows for each of the years in the two-year period ended December 31, 2019, and the related notes (collectively, the consolidated financial statements)."
+      },
+      {
+        "chunk_id": "b_paragraph-b6d067597a753b4d4a75",
+        "quote": "The audit report covering the December 31, 2019 consolidated financial statements refers to the adoption of ASC 842."
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.0022460500000000003,
+  "usage": {
+    "prompt_tokens": 3537,
+    "completion_tokens": 5173,
+    "total_tokens": 8710,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4864,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "c7db5ea9ce904ea2ea58e68f412d8857a1ca02f1d7533927cd8a6cfa644c2074",
+  "elapsed_seconds": 31.68381379999846
+}

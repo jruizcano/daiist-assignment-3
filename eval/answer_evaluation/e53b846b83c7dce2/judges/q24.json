@@ -1,0 +1,43 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The final answer correctly refuses to provide a post-IPO return because the retrieved passages only contain IPO terms (e.g., IPO price) and do not contain any subsequent market-price history necessary to compute Airbnb's first-year return relative to the offer price.",
+    "supported_reason": "The retrieved passages show the IPO price ($68.00) and listing details but do not provide post-IPO share-price history or first-year return data, aligning with the claim of insufficient evidence to answer the question.",
+    "evidence_sufficiency": "partial",
+    "failure_categories": [
+      "retrieval_miss"
+    ],
+    "failure_reason": "Essential data (first-year post-IPO return relative to IPO offer price) is not present in the retrieved passages; only IPO terms are available.",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-2966e29f834f5e357bd7",
+        "quote": "The initial public offering price is $68.00 per share."
+      },
+      {
+        "chunk_id": "b_paragraph-01c6400b19fce3e6f720",
+        "quote": "This is an initial public offering of shares of Class A common stock of Airbnb, Inc. We are offering 50,000,000 shares of our Class A common stock."
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.00049925,
+  "usage": {
+    "prompt_tokens": 2705,
+    "completion_tokens": 910,
+    "total_tokens": 3615,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 640,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "f6600ce2c03830d210f5c850b7d0154fbb7f576fbf3e024301781d84921a6814",
+  "elapsed_seconds": 7.350581200000306
+}

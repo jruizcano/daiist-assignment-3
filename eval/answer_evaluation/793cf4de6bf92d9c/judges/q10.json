@@ -1,0 +1,49 @@
+{
+  "status": "needs_review",
+  "grade": {
+    "correct": 0,
+    "supported": 0,
+    "correct_reason": "The final answer does not fully answer the request. It refuses to provide the greenshoe details, but Uber’s filing in the retrieved passages shows an offer of 27,000,000 additional shares from selling stockholders (a greenshoe) and implies a 30-day window in standard practice, while Airbnb’s and DoorDash’s materials do not clearly confirm greenshoes in the retrieved excerpts.",
+    "supported_reason": "Not all factual claims in the final answer are supported by the retrieved passages. In particular, Uber’s document indicates an option to purchase up to 27,000,000 additional shares from selling stockholders, which contradicts a blanket claim of insufficient evidence.",
+    "evidence_sufficiency": "partial",
+    "failure_categories": [
+      "wrong_refusal"
+    ],
+    "failure_reason": "The answer refuses to provide the requested details despite the Uber filing containing relevant greenshoe information; at least partial information is present in the retrieved passages.",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-12401047a771b958fa5a",
+        "quote": "Common Stock 180,000,000 Shares Uber Technologies, Inc. is offering 180,000,000 shares of its common stock. The selling stockholders identified in this prospectus are offering 27,000,000 shares of common stock if and to the extent that the underwriters exercise their option to purchase additional shares described below."
+      },
+      {
+        "chunk_id": "b_paragraph-ce3ee6ffbfe0a24a40b7",
+        "quote": "Directed Share Program\n\nAt our request, the underwriters have reserved up to 3,500,000 shares of Class A common stock, or 7.0% of the shares offered by us in this offering, for sale at the initial public offering price through a directed share program to:\n\n• eligible U.S. hosts who hosted on our platform in 2019 or 2020; and\n\n• certain individuals identified by our officers and directors."
+      },
+      {
+        "chunk_id": "b_paragraph-69929b5f314d71ac9625",
+        "quote": "33,000,000 Shares\nDoorDash, Inc."
+      }
+    ]
+  },
+  "validation_errors": [
+    "Unsupported grade requires unsupported_claim diagnosis"
+  ],
+  "cost_usd": 0.00239492,
+  "usage": {
+    "prompt_tokens": 4756,
+    "completion_tokens": 5508,
+    "total_tokens": 10264,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5056,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "aa8e16c3cc0bc9931486b299d4863778ae93818116fd6c1fd254d813d11ccfbf",
+  "elapsed_seconds": 31.093691000001854
+}

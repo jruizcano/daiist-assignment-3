@@ -1,0 +1,11 @@
+[
+  {
+    "id": "q02",
+    "time_utc": "2026-11-25T19:33:32.150719+00:00",
+    "previous_status": "error",
+    "previous_answer_sha256": "9616cdcd6686052389a6cd2a8ca83c188cb83f9a957be4c5d2798ff59130de6a",
+    "new_status": "not_found",
+    "note": "User-requested replacement of a selected answer; this dataset is no longer a single untouched full run.",
+    "new_answer_sha256": "d7c256e76c141bfda4eca5d3fa0c9b1cc5d9d0e6a698ce6168e2c81727642b8a"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "questions_total": 30,
+  "answers_saved": 30,
+  "judge_valid_grades": 11,
+  "judge_needs_review": 11,
+  "operational_failures_or_blocks": 8,
+  "judge_correct": 11,
+  "correct_rate_over_all_questions": null,
+  "correct_rate_among_valid_judge_grades": 1.0,
+  "unsupported_final_answers": 0,
+  "unsupported_rate_among_valid_judge_grades": 0.0,
+  "unanswerable_questions": 5,
+  "correct_refusals": 2,
+  "answerable_questions": 25,
+  "answerable_refusal_count": 3,
+  "failure_category_counts": {
+    "retrieval_miss": 1,
+    "guardrail_block": 8
+  },
+  "human_answers_graded": 0,
+  "human_minimum_met": false,
+  "human_judge_agreement": {
+    "paired_answers": 0,
+    "correct": {
+      "agree": 0,
+      "total": 0,
+      "agreement": null,
+      "confusion_counts": {},
+      "cohen_kappa": null
+    },
+    "supported": {
+      "agree": 0,
+      "total": 0,
+      "agreement": null,
+      "confusion_counts": {},
+      "cohen_kappa": null
+    }
+  },
+  "answer_model_cost_usd": 0.061020460000000006,
+  "judge_model_cost_usd": 0.0127024,
+  "mean_agent_seconds": 22.69999739666661,
+  "note": "AI grades, not verified accuracy. Failure categories overlap. Refusal counts are not necessarily correct refusals. Same questions used for design selection; no held-out set.",
+  "dataset": "e53b846b83c7dce23b3adc65589c80e6ce21c29fa4ebe4bbc32cbc6b8acf9e5f",
+  "warnings": []
+}

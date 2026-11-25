@@ -1,0 +1,32 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "Final answer properly refuses due to lack of explicit evidence in the retrieved passages about Uber's use of IPO proceeds.",
+    "supported_reason": "The answer makes no factual claims beyond stating that the retrieved materials do not provide enough evidence, which is supported by the absence of a clear Use of Proceeds description in the retrieved Uber passages.",
+    "evidence_sufficiency": "none",
+    "failure_categories": [],
+    "failure_reason": "Insufficient evidence in retrieved passages to determine Uber's intended use of IPO proceeds; the question is not answerable from the supplied texts.",
+    "evidence": []
+  },
+  "validation_errors": [],
+  "cost_usd": 0.0013807200000000002,
+  "usage": {
+    "prompt_tokens": 7504,
+    "completion_tokens": 2629,
+    "total_tokens": 10133,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2496,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "da0eaf8c4cfe081099b934e7e48125cc3366cb2e46953f8199ecd456509441b4",
+  "elapsed_seconds": 16.97466279999935
+}

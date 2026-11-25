@@ -4,6 +4,31 @@ Build a RAG system over a document collection, expose it as MCP tools, use it fr
 
 Start with [SETUP.md](SETUP.md).
 
+
+## Implementation map
+
+The implementation is grouped by assignment stage. See [Project guide and VS Code commands](docs/PROJECT_GUIDE.md) for a walkthrough. The original assignment requirements below are unchanged.
+
+```text
+main.py, index.py, evaluate.py   Required command entry points
+server.py, agent.py, AGENTS.md   MCP tools and agent harness
+api_key.py, check.py            Original setup and submission checks
+ingestion/                     Download, extraction, headings, chunking, document additions
+retrieval/                     Vector search
+evaluation/                    Passage review, answer judging, human-review import
+experiments/                   Before/after comparisons and add-document experiment
+checks/                        Integration and data-validation utilities
+tests/                         Offline regression tests
+docs/                          Technical guides and reproducible commands
+corpus/                        Local documents and prepared chunks (Git-ignored)
+index/                         Saved vectors and chunk metadata (commit these)
+eval/                          Questions, grades, saved results and editor transcript
+.claude/agents/                 Editor subagent definition
+REPORT.md                      Report and analysis
+```
+
+Saved results can be recounted without API calls using `uv run python -m evaluation.answer_evaluation --offline`. A fresh full evaluation identifies changed code and creates a new dataset; see the project guide before rerunning it.
+
 ## The task
 
 1. **Use case.** Who asks, what they do with the answer, and what a wrong answer costs compared with "I don't know". Pick one where a wrong answer matters.

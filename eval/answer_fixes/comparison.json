@@ -1,0 +1,1201 @@
+{
+  "stages": {
+    "before": "eval\\answer_evaluation\\e53b846b83c7dce2",
+    "judge_only": "eval\\answer_evaluation\\2f54a4c92dd032d0",
+    "updated_system": "eval\\answer_evaluation\\793cf4de6bf92d9c"
+  },
+  "judge_only_answers_byte_identical": true,
+  "summaries": {
+    "before": {
+      "questions_total": 30,
+      "answers_saved": 30,
+      "judge_valid_grades": 11,
+      "judge_needs_review": 11,
+      "operational_failures_or_blocks": 8,
+      "judge_correct": 11,
+      "correct_rate_over_all_questions": null,
+      "correct_rate_among_valid_judge_grades": 1.0,
+      "unsupported_final_answers": 0,
+      "unsupported_rate_among_valid_judge_grades": 0.0,
+      "unanswerable_questions": 5,
+      "correct_refusals": 2,
+      "answerable_questions": 25,
+      "answerable_refusal_count": 3,
+      "failure_category_counts": {
+        "retrieval_miss": 1,
+        "guardrail_block": 8
+      },
+      "human_answers_graded": 0,
+      "human_minimum_met": false,
+      "human_judge_agreement": {
+        "paired_answers": 0,
+        "correct": {
+          "agree": 0,
+          "total": 0,
+          "agreement": null,
+          "confusion_counts": {},
+          "cohen_kappa": null
+        },
+        "supported": {
+          "agree": 0,
+          "total": 0,
+          "agreement": null,
+          "confusion_counts": {},
+          "cohen_kappa": null
+        }
+      },
+      "answer_model_cost_usd": 0.061020460000000006,
+      "judge_model_cost_usd": 0.0127024,
+      "mean_agent_seconds": 22.69999739666661,
+      "note": "AI grades, not verified accuracy. Failure categories overlap. Refusal counts are not necessarily correct refusals. Same questions used for design selection; no held-out set.",
+      "dataset": "e53b846b83c7dce23b3adc65589c80e6ce21c29fa4ebe4bbc32cbc6b8acf9e5f",
+      "warnings": []
+    },
+    "judge_only": {
+      "questions_total": 30,
+      "answers_saved": 30,
+      "judge_valid_grades": 19,
+      "judge_needs_review": 3,
+      "operational_failures_or_blocks": 8,
+      "judge_correct": 15,
+      "correct_rate_over_all_questions": null,
+      "correct_rate_among_valid_judge_grades": 0.7894736842105263,
+      "unsupported_final_answers": 1,
+      "unsupported_rate_among_valid_judge_grades": 0.05263157894736842,
+      "unanswerable_questions": 5,
+      "correct_refusals": 4,
+      "answerable_questions": 25,
+      "answerable_refusal_count": 3,
+      "failure_category_counts": {
+        "retrieval_miss": 2,
+        "wrong_answer_from_right_passage": 2,
+        "unsupported_claim": 1,
+        "guardrail_block": 8
+      },
+      "human_answers_graded": 0,
+      "human_minimum_met": false,
+      "human_judge_agreement": {
+        "paired_answers": 0,
+        "correct": {
+          "agree": 0,
+          "total": 0,
+          "agreement": null,
+          "confusion_counts": {},
+          "cohen_kappa": null
+        },
+        "supported": {
+          "agree": 0,
+          "total": 0,
+          "agreement": null,
+          "confusion_counts": {},
+          "cohen_kappa": null
+        }
+      },
+      "answer_model_cost_usd": 0.061020460000000006,
+      "judge_model_cost_usd": 0.0339874,
+      "mean_agent_seconds": 22.69999739666661,
+      "note": "AI grades, not verified accuracy. Failure categories overlap. Refusal counts are not necessarily correct refusals. Same questions used for design selection; no held-out set.",
+      "dataset": "2f54a4c92dd032d077b6e928c6d046dad09d4e34019932b852a8a48efde667ba",
+      "warnings": []
+    },
+    "updated_system": {
+      "questions_total": 30,
+      "answers_saved": 30,
+      "judge_valid_grades": 20,
+      "judge_needs_review": 5,
+      "operational_failures_or_blocks": 5,
+      "judge_correct": 17,
+      "correct_rate_over_all_questions": null,
+      "correct_rate_among_valid_judge_grades": 0.85,
+      "unsupported_final_answers": 1,
+      "unsupported_rate_among_valid_judge_grades": 0.05,
+      "unanswerable_questions": 5,
+      "correct_refusals": 4,
+      "answerable_questions": 25,
+      "answerable_refusal_count": 4,
+      "failure_category_counts": {
+        "wrong_answer_from_right_passage": 1,
+        "wrong_refusal": 1,
+        "unsupported_claim": 1,
+        "retrieval_miss": 1,
+        "guardrail_block": 5
+      },
+      "human_answers_graded": 0,
+      "human_minimum_met": false,
+      "human_judge_agreement": {
+        "paired_answers": 0,
+        "correct": {
+          "agree": 0,
+          "total": 0,
+          "agreement": null,
+          "confusion_counts": {},
+          "cohen_kappa": null
+        },
+        "supported": {
+          "agree": 0,
+          "total": 0,
+          "agreement": null,
+          "confusion_counts": {},
+          "cohen_kappa": null
+        }
+      },
+      "answer_model_cost_usd": 0.06561971,
+      "judge_model_cost_usd": 0.03883322,
+      "mean_agent_seconds": 22.56369150000052,
+      "note": "AI grades, not verified accuracy. Failure categories overlap. Refusal counts are not necessarily correct refusals. Same questions used for design selection; no held-out set.",
+      "dataset": "793cf4de6bf92d9cac995c34a877203cc580669e115ae8eb2eac1f49faa333e4",
+      "warnings": []
+    }
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "question": "What revenue did Airbnb report for the year ended December 31 2019",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q02",
+      "question": "What revenue did DoorDash report for the year ended December 31, 2019?",
+      "before": {
+        "answer_status": "not_found",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match",
+          "Judge evidence quote or chunk ID does not match",
+          "Judge evidence quote or chunk ID does not match",
+          "Unsupported grade requires unsupported_claim diagnosis"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 0,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "not_found",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Unsupported grade requires unsupported_claim diagnosis"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      }
+    },
+    {
+      "id": "q03",
+      "question": "What revenue did Uber report for the year ended December 31, 2019?",
+      "before": {
+        "answer_status": "not_found",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 1,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Give three examples of risks highlighted in Uber's Summary Risk Factors.",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Unsupported grade requires unsupported_claim diagnosis"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 0,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Incorrect grade requires a failure diagnosis"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Give three examples of risks highlighted in DoorDash's Risk Factors Summary.",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 2: quotation does not match the cited passage.",
+          "Claim 3: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 1,
+        "correct": null,
+        "supported": null
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Give three examples of risks highlighted in Airbnb's Risk Factors Summary.",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Unsupported grade requires unsupported_claim diagnosis"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 0,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 0,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q07",
+      "question": "How many shares is Uber itself offering in its IPO, excluding the over-allotment option and the separate PayPal private placement?",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q08",
+      "question": "How many shares is DoorDash offering in its IPO?",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q09",
+      "question": "How many shares is Airbnb itself offering in its IPO, excluding the underwriters' additional-share option?",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q10",
+      "question": "Do the DoorDash, Uber and Airbnb IPOs include an underwriters' over-allotment (greenshoe) option? For each, state the share limit, exercise period, and who sells the additional shares.",
+      "before": {
+        "answer_status": "partial",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match",
+          "Judge evidence quote or chunk ID does not match",
+          "Unsupported grade requires unsupported_claim diagnosis"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "partial",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 0,
+        "supported": 0
+      },
+      "updated_system": {
+        "answer_status": "not_found",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Unsupported grade requires unsupported_claim diagnosis"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      }
+    },
+    {
+      "id": "q11",
+      "question": "What final IPO offer price per share is stated in DoorDash's prospectus?",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q12",
+      "question": "What final IPO offer price per share is stated in Uber's prospectus?",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q13",
+      "question": "What final IPO offer price per share is stated in Airbnb's prospectus?",
+      "before": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: citation ID was not retrieved."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: citation ID was not retrieved."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q14",
+      "question": "What are DoorDash's gross IPO proceeds and estimated net proceeds after underwriting discounts and offering expenses?",
+      "before": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q15",
+      "question": "What are Airbnb's own gross IPO proceeds and estimated net proceeds, excluding the additional-share option and selling-stockholder proceeds?",
+      "before": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: dollar amount is not established in the quoted evidence (including units)."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: dollar amount is not established in the quoted evidence (including units)."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      }
+    },
+    {
+      "id": "q16",
+      "question": "What are Uber's gross IPO proceeds and estimated net proceeds, excluding the separate PayPal private placement and selling-stockholder proceeds?",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 1,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q17",
+      "question": "Which competitors does DoorDash identify in the Competition subsection of its Business section?",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q18",
+      "question": "Which competitor categories and examples does Airbnb identify in the Competition subsection of its Business section?",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q19",
+      "question": "Which competitors does Uber identify for Personal Mobility, Uber Eats and Uber Freight in its Business section?",
+      "before": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 2: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 2: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "updated_system": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 4,
+        "correct": null,
+        "supported": null
+      }
+    },
+    {
+      "id": "q20",
+      "question": "Identify three risk themes shared by DoorDash and Uber, citing each company's IPO prospectus.",
+      "before": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Non-answer status cannot contain factual claims.",
+          "Claim 1: citation ID was not retrieved."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Non-answer status cannot contain factual claims.",
+          "Claim 1: citation ID was not retrieved."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "updated_system": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 0,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q21",
+      "question": "Compare DoorDash's and Uber's reported revenue growth for the latest completed fiscal year in each IPO prospectus. Identify the periods and explain the comparison's limitation.",
+      "before": {
+        "answer_status": "not_found",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match",
+          "Unsupported grade requires unsupported_claim diagnosis"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "not_found",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Unsupported grade requires unsupported_claim diagnosis"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "updated_system": {
+        "answer_status": "partial",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 2,
+        "correct": 0,
+        "supported": 0
+      }
+    },
+    {
+      "id": "q23",
+      "question": "What was DoorDash's share-price percentage return over its first year after the IPO, measured relative to its IPO offer price?",
+      "before": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "judge_only": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q24",
+      "question": "What was Airbnb's share-price percentage return over its first year after the IPO, measured relative to its IPO offer price?",
+      "before": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "judge_only": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q25",
+      "question": "What was Uber's share-price percentage return over its first year after the IPO, measured relative to its IPO offer price?",
+      "before": {
+        "answer_status": "not_found",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q26",
+      "question": "Did Uber, Airbnb and DoorDash actually use their IPO proceeds as described in their prospectuses?",
+      "before": {
+        "answer_status": "not_found",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match",
+          "Judge evidence quote or chunk ID does not match",
+          "Judge evidence quote or chunk ID does not match"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "not_found",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "updated_system": {
+        "answer_status": "partial",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 1,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q27",
+      "question": "What drove revenue growth for Uber, Airbnb and DoorDash in the latest completed fiscal year covered by each IPO prospectus, and how did those drivers differ?",
+      "before": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: quotation does not match the cited passage.",
+          "Claim 1: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: quotation does not match the cited passage.",
+          "Claim 1: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "updated_system": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Partial answer must identify missing topics."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 4,
+        "correct": null,
+        "supported": null
+      }
+    },
+    {
+      "id": "q28",
+      "question": "How does Uber generate revenue, according to its IPO prospectus?",
+      "before": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "updated_system": {
+        "answer_status": "answered",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Malformed or incomplete judge response"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      }
+    },
+    {
+      "id": "q29",
+      "question": "How does Uber intend to use the proceeds from its IPO?",
+      "before": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "judge_only": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "not_found",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      }
+    },
+    {
+      "id": "q30",
+      "question": "How does DoorDash generate revenue, according to its IPO prospectus?",
+      "before": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: quotation does not match the cited passage.",
+          "Claim 2: quotation does not match the cited passage.",
+          "Claim 3: quotation does not match the cited passage.",
+          "Claim 4: quotation does not match the cited passage.",
+          "Claim 5: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 1: quotation does not match the cited passage.",
+          "Claim 2: quotation does not match the cited passage.",
+          "Claim 3: quotation does not match the cited passage.",
+          "Claim 4: quotation does not match the cited passage.",
+          "Claim 5: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "updated_system": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 6: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 3,
+        "correct": null,
+        "supported": null
+      }
+    },
+    {
+      "id": "q31",
+      "question": "How does Airbnb generate revenue, according to its IPO prospectus?",
+      "before": {
+        "answer_status": "answered",
+        "judge_status": "needs_review",
+        "answer_errors": [],
+        "judge_errors": [
+          "Judge evidence quote or chunk ID does not match",
+          "Judge evidence quote or chunk ID does not match",
+          "Judge evidence quote or chunk ID does not match"
+        ],
+        "citation_link_repairs": 0,
+        "correct": null,
+        "supported": null
+      },
+      "judge_only": {
+        "answer_status": "answered",
+        "judge_status": "graded",
+        "answer_errors": [],
+        "judge_errors": [],
+        "citation_link_repairs": 0,
+        "correct": 1,
+        "supported": 1
+      },
+      "updated_system": {
+        "answer_status": "blocked",
+        "judge_status": null,
+        "answer_errors": [
+          "Claim 2: quotation does not match the cited passage."
+        ],
+        "judge_errors": [],
+        "citation_link_repairs": 2,
+        "correct": null,
+        "supported": null
+      }
+    }
+  ],
+  "limitations": "Same questions used for development. Judge-only holds answers/evidence fixed; updated_system is a fresh full run with potentially different retrieval/model outputs. Passing checks is not human verification. Selected answers were subsequently replaced at the user's request; consult selected_answer_replacements. The current updated results are not an untouched single-run benchmark.",
+  "new_experiment_model_cost_usd": 0.13844033,
+  "cost_note": "Stored experiment model usage, excluding original reused answers and query embeddings; cached repeats do not incur this cost again.",
+  "selected_answer_replacements": {
+    "updated_system": [
+      {
+        "id": "q02",
+        "time_utc": "2026-11-25T19:33:32.150719+00:00",
+        "previous_status": "error",
+        "previous_answer_sha256": "9616cdcd6686052389a6cd2a8ca83c188cb83f9a957be4c5d2798ff59130de6a",
+        "new_status": "not_found",
+        "note": "User-requested replacement of a selected answer; this dataset is no longer a single untouched full run.",
+        "new_answer_sha256": "d7c256e76c141bfda4eca5d3fa0c9b1cc5d9d0e6a698ce6168e2c81727642b8a"
+      }
+    ]
+  }
+}

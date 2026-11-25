@@ -1,0 +1,37 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The final answer correctly states that Uber is offering 180,000,000 shares. The retrieved source confirms this exact figure in the statement: \"Uber Technologies, Inc. is offering 180,000,000 shares of its common stock.\"",
+    "supported_reason": "The provided quote from the retrieved passage directly supports the claim that Uber is offering 180,000,000 shares.",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-12401047a771b958fa5a",
+        "quote": "Uber Technologies, Inc. is offering 180,000,000 shares of its common stock."
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.0008868999999999999,
+  "usage": {
+    "prompt_tokens": 5690,
+    "completion_tokens": 1506,
+    "total_tokens": 7196,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1344,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "2c9b2d716a2f54b6124d63b03cc56119f7a2adbaa9faf7f942b105ae9c497f41",
+  "elapsed_seconds": 11.33818329999849
+}

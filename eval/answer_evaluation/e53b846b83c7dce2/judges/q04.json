@@ -1,0 +1,50 @@
+{
+  "status": "needs_review",
+  "grade": {
+    "correct": 0,
+    "supported": 0,
+    "correct_reason": "The final answer only provides one risk example (competition) and does not supply three examples as requested.",
+    "supported_reason": "The provided statements are not three distinct examples; they compile multiple risks into a single bullet from Uber's Prospectus Summary. The answer does not clearly enumerate three separate risks with direct attribution to Uber's Summary Risk Factors.",
+    "evidence_sufficiency": "partial",
+    "failure_categories": [
+      "wrong_answer_from_right_passage",
+      "bad_test_question"
+    ],
+    "failure_reason": "The user asked for three distinct risk examples; the answer does not meet that requirement. Relevant Uber Prospectus Risk Factors contain multiple distinct risks (competition, profitability/losses, employee classification) that could serve as three examples, but the final answer fails to extract three distinct items.",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-f63c1e6cf90beec32844",
+        "quote": "• The personal mobility, meal delivery, and logistics industries are highly competitive, with well-established and low-cost alternatives that have been available for decades, low barriers to entry, low switching costs, and well-capitalized competitors in nearly every major geographic region."
+      },
+      {
+        "chunk_id": "b_paragraph-f63c1e6cf90beec32844",
+        "quote": "• We have incurred significant losses since inception, including in the United States and other major markets. We expect our operating expenses to increase significantly in the foreseeable future, and we may not achieve profitability."
+      },
+      {
+        "chunk_id": "b_paragraph-f63c1e6cf90beec32844",
+        "quote": "• Our business would be adversely affected if Drivers were classified as employees instead of independent contractors."
+      }
+    ]
+  },
+  "validation_errors": [
+    "Unsupported grade requires unsupported_claim diagnosis"
+  ],
+  "cost_usd": 0.0006444,
+  "usage": {
+    "prompt_tokens": 5776,
+    "completion_tokens": 889,
+    "total_tokens": 6665,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 512,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "a70deb53ef62f4714adec1b13feb812e0c95461d8f7fe9f1b9d98e63b50b40d6",
+  "elapsed_seconds": 7.137001099999907
+}

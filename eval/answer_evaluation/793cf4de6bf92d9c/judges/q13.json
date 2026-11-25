@@ -1,0 +1,37 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "Answer provides the price $68.00 per share and matches retrieved text (though it uses 'initial public offering price' wording, the price is the same and the fact is supported).",
+    "supported_reason": "The answer quotes the exact sentence from the retrieved Airbnb prospectus: 'The initial public offering price is $68.00 per share.'",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-01c6400b19fce3e6f720",
+        "quote": "The initial public offering price is $68.00 per share."
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.00131772,
+  "usage": {
+    "prompt_tokens": 3540,
+    "completion_tokens": 2967,
+    "total_tokens": 6507,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2816,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "b928ced3594502e95c833e1cd781718355d1e9184c1b00b465f97a6d8302af5d",
+  "elapsed_seconds": 18.089367699998547
+}

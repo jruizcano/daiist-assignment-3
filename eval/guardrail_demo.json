@@ -1,0 +1,69 @@
+[
+  {
+    "case": "valid",
+    "synthetic": true,
+    "draft": {
+      "status": "answered",
+      "claims": [
+        {
+          "text": "Revenue was $885 million.",
+          "evidence": [
+            {
+              "chunk_id": "fixture",
+              "quote": "Revenue was $885 million in 2019."
+            }
+          ]
+        }
+      ],
+      "missing": []
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "case": "wrong_amount",
+    "synthetic": true,
+    "draft": {
+      "status": "answered",
+      "claims": [
+        {
+          "text": "Revenue was $900 million.",
+          "evidence": [
+            {
+              "chunk_id": "fixture",
+              "quote": "Revenue was $885 million in 2019."
+            }
+          ]
+        }
+      ],
+      "missing": []
+    },
+    "errors": [
+      "Claim 1: dollar amount is not established in the quoted evidence (including units)."
+    ],
+    "passed": true
+  },
+  {
+    "case": "invented_citation",
+    "synthetic": true,
+    "draft": {
+      "status": "answered",
+      "claims": [
+        {
+          "text": "Revenue was $885 million.",
+          "evidence": [
+            {
+              "chunk_id": "invented",
+              "quote": "Revenue was $885 million in 2019."
+            }
+          ]
+        }
+      ],
+      "missing": []
+    },
+    "errors": [
+      "Claim 1: citation ID was not retrieved."
+    ],
+    "passed": true
+  }
+]

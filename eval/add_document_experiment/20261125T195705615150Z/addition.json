@@ -1,0 +1,14 @@
+{
+  "status": "added",
+  "document_id": "added_f4563c12896f9947923d6017",
+  "source_url": "https://investor.uber.com/news-events/news/press-release-details/2020/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2019/default.aspx",
+  "chunks_by_design": {
+    "a_fixed": 3,
+    "b_paragraph": 3,
+    "c_heading_path": 3
+  },
+  "new_vectors": 7,
+  "embedding_tokens": 1547,
+  "embedding_cost_usd": 3.094e-05,
+  "index_MB": 77.309
+}

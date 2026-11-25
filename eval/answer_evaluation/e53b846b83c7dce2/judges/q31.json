@@ -1,0 +1,57 @@
+{
+  "status": "needs_review",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "Final answer accurately describes Airbnb's revenue model per the IPO-related disclosures: revenue primarily from service fees for stays, customers are hosts and guests, revenue recognized upon check-in, and presentation as net (agent) rather than gross when not controlling the service.",
+    "supported_reason": "All factual claims in the final answer are drawn from the retrieved Airbnb IPO-related passages, which discuss service fees, stays as the main revenue source, revenue recognition at check-in, and net presentation as an agent.",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-74894fcd3a68408561f2",
+        "quote": "Revenue Recognition\n\nWe recognize revenue in accordance with ASC Topic 606, which we adopted as of January 1, 2018 on a full retrospective basis. We generate substantially all of our revenue from facilitating guest stays at accommodations offered by hosts on the Airbnb platform. We consider both hosts and guests to be our customers. Our revenue is comprised of service fees from our customers."
+      },
+      {
+        "chunk_id": "b_paragraph-74894fcd3a68408561f2",
+        "quote": "Airbnb presents revenue on a net basis when it acts as an agent, not as the principal, meaning revenue is presented net reflecting the service fees received from our customers to facilitate a stay."
+      },
+      {
+        "chunk_id": "b_paragraph-a8e7d8b80a11d0aa903d",
+        "quote": "The Company generates substantially all of its revenue from facilitating guest stays at accommodations offered by hosts on the Company’s platform."
+      },
+      {
+        "chunk_id": "b_paragraph-8fd09a4849e0bfe64252",
+        "quote": "Revenue Recognition\n\nThe Company generates substantially all of its revenue from facilitating guest stays at accommodations offered by hosts on the Company’s platform."
+      },
+      {
+        "chunk_id": "b_paragraph-a99d648475d4f4fa5ec5",
+        "quote": "Revenue consists of service fees, net of incentives and refunds, charged to our customers. We consider both hosts and guests to be our customers. For stays, service fees, which are charged to customers as a percentage of the value of the booking, excluding taxes, vary based on factors specific to the booking... For experiences, we only earn a host fee."
+      }
+    ]
+  },
+  "validation_errors": [
+    "Judge evidence quote or chunk ID does not match",
+    "Judge evidence quote or chunk ID does not match",
+    "Judge evidence quote or chunk ID does not match"
+  ],
+  "cost_usd": 0.00050135,
+  "usage": {
+    "prompt_tokens": 3803,
+    "completion_tokens": 778,
+    "total_tokens": 4581,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 256,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "967f7e77751bb997d903c959c1ea2f7da4ef5f8c372b67b32852daf3bb11cef4",
+  "elapsed_seconds": 5.708020500002021
+}

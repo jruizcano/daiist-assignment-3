@@ -1,0 +1,37 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The final answer provides the exact number of shares (33,000,000) offered by DoorDash in its IPO, which matches the retrieved source.",
+    "supported_reason": "The claim is directly supported by the retrieved front matter text showing '33,000,000 Shares' for DoorDash.",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "none",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-69929b5f314d71ac9625",
+        "quote": "33,000,000 Shares"
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.0007231700000000001,
+  "usage": {
+    "prompt_tokens": 2537,
+    "completion_tokens": 1606,
+    "total_tokens": 4143,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1472,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "004d6ad8422306e6bca4f0be6f659fd1b4fb1d2945dedbd7ca18111dd474fc99",
+  "elapsed_seconds": 9.013662200002727
+}

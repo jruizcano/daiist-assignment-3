@@ -1,0 +1,112 @@
+{
+  "assessments": 90,
+  "before_flagged": 17,
+  "after_flagged": 13,
+  "resolved": 4,
+  "new_flags": 0,
+  "validator_version": "2.0",
+  "by_design": {
+    "a_fixed": {
+      "assessments": 30,
+      "before_flagged": 6,
+      "after_flagged": 6,
+      "resolved": 0,
+      "new_flags": 0
+    },
+    "b_paragraph": {
+      "assessments": 30,
+      "before_flagged": 5,
+      "after_flagged": 2,
+      "resolved": 3,
+      "new_flags": 0
+    },
+    "c_heading_path": {
+      "assessments": 30,
+      "before_flagged": 6,
+      "after_flagged": 5,
+      "resolved": 1,
+      "new_flags": 0
+    }
+  },
+  "resolved_assessments": [
+    {
+      "id": "q07",
+      "design": "b_paragraph"
+    },
+    {
+      "id": "q10",
+      "design": "b_paragraph"
+    },
+    {
+      "id": "q14",
+      "design": "b_paragraph"
+    },
+    {
+      "id": "q02",
+      "design": "c_heading_path"
+    }
+  ],
+  "still_flagged": [
+    {
+      "id": "q18",
+      "design": "a_fixed"
+    },
+    {
+      "id": "q24",
+      "design": "a_fixed"
+    },
+    {
+      "id": "q27",
+      "design": "a_fixed"
+    },
+    {
+      "id": "q28",
+      "design": "a_fixed"
+    },
+    {
+      "id": "q30",
+      "design": "a_fixed"
+    },
+    {
+      "id": "q31",
+      "design": "a_fixed"
+    },
+    {
+      "id": "q17",
+      "design": "b_paragraph"
+    },
+    {
+      "id": "q27",
+      "design": "b_paragraph"
+    },
+    {
+      "id": "q15",
+      "design": "c_heading_path"
+    },
+    {
+      "id": "q17",
+      "design": "c_heading_path"
+    },
+    {
+      "id": "q19",
+      "design": "c_heading_path"
+    },
+    {
+      "id": "q28",
+      "design": "c_heading_path"
+    },
+    {
+      "id": "q31",
+      "design": "c_heading_path"
+    }
+  ],
+  "new_match_methods": {
+    "formatting_only": 5,
+    "structured_table_cell": 1
+  },
+  "api_calls": 0,
+  "cost_usd": 0,
+  "baseline_manifest_sha256": "ebd20c23fd2a5c28b5e953967f41d0ad2a4a2605489f7cbe12c093797b0c7492",
+  "validator_sha256": "ed2e73540fd0339a124ce0dd1c3bd6f52dccda85f7d411d4b279e2a577b04afb",
+  "scope": "Mechanical citation validation only. Retrieval, AI labels, references and human decisions are fixed. No accuracy claim."
+}

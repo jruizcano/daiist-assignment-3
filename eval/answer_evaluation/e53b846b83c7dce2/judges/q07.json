@@ -1,0 +1,41 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "Final answer correctly states the number of Uber's own offered shares (180,000,000) excluding over-allotment and PayPal private placement, matching the provided prospectus text.",
+    "supported_reason": "Retrieved passages explicitly state Uber Technologies, Inc. is offering 180,000,000 shares of its common stock; the separate 27,000,000 over-allotment shares are from selling stockholders and PayPal private placement is separate, aligning with the final answer.",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-12401047a771b958fa5a",
+        "quote": "Common Stock 180,000,000 Shares\n\nUber Technologies, Inc. is offering 180,000,000 shares of its common stock."
+      },
+      {
+        "chunk_id": "b_paragraph-12401047a771b958fa5a",
+        "quote": "PayPal, Inc. has entered into an agreement with us pursuant to which it has agreed to purchase 11,111,112 shares of our common stock in a private placement"
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.0004534,
+  "usage": {
+    "prompt_tokens": 5396,
+    "completion_tokens": 459,
+    "total_tokens": 5855,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 192,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "296fb845496133d961281d4f852e97a453a8c720cdc05c7b7c82e2af4acae2dc",
+  "elapsed_seconds": 3.46607529999892
+}

@@ -1,0 +1,37 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The answer rounds Airbnb's 2019 revenue to $4.8B, which matches the source stating revenue of $4.8 billion for 2019; rounding is allowed since exact precision was not requested.",
+    "supported_reason": "The retrieved passage explicitly states: 'In 2019, we generated GBV of $38.0 billion, representing growth of 29% from $29.4 billion in 2018, and revenue of $4.8 billion, representing growth of 32% from $3.7 billion in 2018.'",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "none",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-a8e7d8b80a11d0aa903d",
+        "quote": "In 2019, we generated GBV of $38.0 billion, representing growth of 29% from $29.4 billion in 2018, and revenue of $4.8 billion, representing growth of 32% from $3.7 billion in 2018."
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.0011178199999999998,
+  "usage": {
+    "prompt_tokens": 2886,
+    "completion_tokens": 2549,
+    "total_tokens": 5435,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2304,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "40db5169aa531e45463314e1556f72fb77e77ff0a6e558ebb2d7f65fe0f4f674",
+  "elapsed_seconds": 16.784738899998047
+}

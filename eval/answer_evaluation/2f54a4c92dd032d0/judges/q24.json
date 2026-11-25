@@ -1,0 +1,32 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The question requests a specific post-IPO return metric; the retrieved documents do not provide that metric; the final answer accurately states insufficient evidence.",
+    "supported_reason": "The final answer correctly reflects that the retrieved passages only provide IPO terms (including the IPO price) and do not contain post-IPO share-price history needed to calculate the first-year return.",
+    "evidence_sufficiency": "none",
+    "failure_categories": [],
+    "failure_reason": "No failure; the question is unanswerable from the retrieved passages and the answer appropriately indicates insufficient evidence.",
+    "evidence": []
+  },
+  "validation_errors": [],
+  "cost_usd": 0.00061787,
+  "usage": {
+    "prompt_tokens": 2999,
+    "completion_tokens": 1285,
+    "total_tokens": 4284,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1152,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "42e2a042abfe57f1a57c6cc93dce35bab6d7be2992cbecb49e37bee990b8cae7",
+  "elapsed_seconds": 9.200943499999994
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "Two live status/citation smoke checks, not answer-accuracy grading. Inspect the saved claims and quotations.",
+  "cases": [
+    {
+      "case": "answerable",
+      "expected_status": "answered",
+      "actual_status": "answered",
+      "passed": true,
+      "guardrail_errors": [],
+      "initial_guardrail_errors": [],
+      "run_file": "eval\\agent_runs\\20261125T182908282732Z-edfc1ed0.json",
+      "model_calls": 4,
+      "tool_trace_entries": 4,
+      "model_cost_usd": 0.00115325,
+      "elapsed_seconds": 15.383835900000122
+    },
+    {
+      "case": "unanswerable",
+      "expected_status": "not_found",
+      "actual_status": "not_found",
+      "passed": true,
+      "guardrail_errors": [],
+      "initial_guardrail_errors": [],
+      "run_file": "eval\\agent_runs\\20261125T182920185345Z-6df7873a.json",
+      "model_calls": 4,
+      "tool_trace_entries": 4,
+      "model_cost_usd": 0.00080397,
+      "elapsed_seconds": 11.888564400000178
+    }
+  ],
+  "all_passed": true,
+  "total_model_cost_usd": 0.00195722
+}

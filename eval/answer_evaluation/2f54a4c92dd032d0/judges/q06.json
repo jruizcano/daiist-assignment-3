@@ -1,0 +1,39 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 0,
+    "supported": 1,
+    "correct_reason": "Final answer does not provide the three requested examples; it only provides one risk instead of three.",
+    "supported_reason": "The COVID-19 risk claim is present in the retrieved Airbnb Risk Factors Summary text: \"The COVID-19 pandemic and the impact of actions to mitigate the COVID-19 pandemic have materially adversely impacted and will continue to materially adversely impact our business, results of operations, and financial condition.\"",
+    "evidence_sufficiency": "partial",
+    "failure_categories": [
+      "wrong_answer_from_right_passage"
+    ],
+    "failure_reason": "The answer is incomplete; it provides only one risk example instead of three, though the provided risk is supported by the retrieved passages.",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-0162f6f6ba8da0e765b6",
+        "quote": "The COVID-19 pandemic and the impact of actions to mitigate the COVID-19 pandemic have materially adversely impacted and will continue to materially adversely impact our business, results of operations, and financial condition."
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.0010459500000000001,
+  "usage": {
+    "prompt_tokens": 6855,
+    "completion_tokens": 1758,
+    "total_tokens": 8613,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1536,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "ee17ecf08c0bae74663e1526bff8df606d3339dafc80f7ff2035167e2f35863c",
+  "elapsed_seconds": 12.26070030000119
+}

@@ -1,0 +1,214 @@
+{
+  "status": "AI drafts; not human grades",
+  "scope": "Combined top-five passage sufficiency, not answer accuracy",
+  "judge_model": "gpt-5-nano-2025-08-07",
+  "designs": {
+    "a_fixed": {
+      "answerable_count": 25,
+      "answerable_labels": {
+        "sufficient": 14,
+        "insufficient": 4,
+        "partially_sufficient": 2,
+        "needs_review": 5
+      },
+      "unanswerable_labels": {
+        "not_established": 4,
+        "needs_review": 1
+      },
+      "total_flagged": 6
+    },
+    "b_paragraph": {
+      "answerable_count": 25,
+      "answerable_labels": {
+        "sufficient": 15,
+        "insufficient": 4,
+        "needs_review": 5,
+        "partially_sufficient": 1
+      },
+      "unanswerable_labels": {
+        "not_established": 5
+      },
+      "total_flagged": 5
+    },
+    "c_heading_path": {
+      "answerable_count": 25,
+      "answerable_labels": {
+        "sufficient": 12,
+        "needs_review": 6,
+        "partially_sufficient": 5,
+        "insufficient": 2
+      },
+      "unanswerable_labels": {
+        "not_established": 5
+      },
+      "total_flagged": 6
+    }
+  },
+  "cost_usd": 0.04111979,
+  "total_assessments": 90,
+  "total_flagged": 17,
+  "total_validated_drafts": 73,
+  "flagged_assessments": [
+    {
+      "id": "q18",
+      "design": "a_fixed",
+      "kind": "single",
+      "reasons": [
+        "Unsupported quote or passage rank: 1"
+      ]
+    },
+    {
+      "id": "q24",
+      "design": "a_fixed",
+      "kind": "unanswerable",
+      "reasons": [
+        "Unsupported quote or passage rank: 1"
+      ]
+    },
+    {
+      "id": "q27",
+      "design": "a_fixed",
+      "kind": "multi",
+      "reasons": [
+        "Unsupported quote or passage rank: 2"
+      ]
+    },
+    {
+      "id": "q28",
+      "design": "a_fixed",
+      "kind": "single",
+      "reasons": [
+        "Unsupported quote or passage rank: 4",
+        "Unsupported quote or passage rank: 4",
+        "Unsupported quote or passage rank: 4",
+        "Unsupported quote or passage rank: 2",
+        "Unsupported quote or passage rank: 2"
+      ]
+    },
+    {
+      "id": "q30",
+      "design": "a_fixed",
+      "kind": "single",
+      "reasons": [
+        "Unsupported quote or passage rank: 3",
+        "Unsupported quote or passage rank: 1"
+      ]
+    },
+    {
+      "id": "q31",
+      "design": "a_fixed",
+      "kind": "single",
+      "reasons": [
+        "Unsupported quote or passage rank: 3"
+      ]
+    },
+    {
+      "id": "q07",
+      "design": "b_paragraph",
+      "kind": "single",
+      "reasons": [
+        "Unsupported quote or passage rank: 2",
+        "Unsupported quote or passage rank: 2"
+      ]
+    },
+    {
+      "id": "q10",
+      "design": "b_paragraph",
+      "kind": "multi",
+      "reasons": [
+        "Unsupported quote or passage rank: 5"
+      ]
+    },
+    {
+      "id": "q14",
+      "design": "b_paragraph",
+      "kind": "multi",
+      "reasons": [
+        "Unsupported quote or passage rank: 5"
+      ]
+    },
+    {
+      "id": "q17",
+      "design": "b_paragraph",
+      "kind": "single",
+      "reasons": [
+        "Unsupported quote or passage rank: 1",
+        "Unsupported quote or passage rank: 1"
+      ]
+    },
+    {
+      "id": "q27",
+      "design": "b_paragraph",
+      "kind": "multi",
+      "reasons": [
+        "Unsupported quote or passage rank: 1"
+      ]
+    },
+    {
+      "id": "q02",
+      "design": "c_heading_path",
+      "kind": "single",
+      "reasons": [
+        "Unsupported quote or passage rank: 2"
+      ]
+    },
+    {
+      "id": "q15",
+      "design": "c_heading_path",
+      "kind": "multi",
+      "reasons": [
+        "Unsupported quote or passage rank: 3"
+      ]
+    },
+    {
+      "id": "q17",
+      "design": "c_heading_path",
+      "kind": "single",
+      "reasons": [
+        "Unsupported quote or passage rank: 1"
+      ]
+    },
+    {
+      "id": "q19",
+      "design": "c_heading_path",
+      "kind": "single",
+      "reasons": [
+        "Unsupported quote or passage rank: 1"
+      ]
+    },
+    {
+      "id": "q28",
+      "design": "c_heading_path",
+      "kind": "single",
+      "reasons": [
+        "Unsupported quote or passage rank: 3"
+      ]
+    },
+    {
+      "id": "q31",
+      "design": "c_heading_path",
+      "kind": "single",
+      "reasons": [
+        "Unsupported quote or passage rank: 5"
+      ]
+    }
+  ],
+  "correction_attempts": 36,
+  "all_cached_calls_cost_usd": 0.05911359,
+  "retrieval_sha256": "50b4ca6fa40a1cc01ed14f1572d008891cd64fefd47782c4004c2649b7303f5c",
+  "rubric_sha256": "93dff0cc8392fedb6cf60e08771ff8872972781e1b818e44cbdec11eed97939a",
+  "human_review": {
+    "total_assessments": 90,
+    "reviewed": 17,
+    "not_reviewed": 73,
+    "labels": {
+      "sufficient": 13,
+      "not_established": 1,
+      "partially_sufficient": 3
+    },
+    "automatically_flagged": 17,
+    "flagged_reviewed": 17,
+    "flagged_not_reviewed": 0,
+    "scope": "User-selected passage reviews, not independent grades of generated answers; not a representative accuracy sample."
+  }
+}

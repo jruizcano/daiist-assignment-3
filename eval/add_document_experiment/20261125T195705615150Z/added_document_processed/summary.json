@@ -1,0 +1,23 @@
+{
+  "document_id": "added_f4563c12896f9947923d6017",
+  "source_sha256": "f4563c12896f9947923d6017c482c7e03009c27bb6ec0bffd0b6c06e17d98c66",
+  "detected_encoding": "utf-8",
+  "blocks": 4,
+  "html_tables_seen": 2,
+  "tables_retained": 2,
+  "data_table_candidates": 1,
+  "extracted_words": 176,
+  "sections": [
+    "Front matter"
+  ],
+  "removed": {
+    "table_of_contents_links": 0,
+    "page_labels": 0,
+    "empty_tables": 0
+  },
+  "personal_data_review": "pending; do not treat this as the final indexable corpus",
+  "tables_with_attached_notes": 0,
+  "paragraphs_with_attached_notes": 0,
+  "unresolved_prose_references": 0,
+  "footnote_linking": "Local notes appended to table/group text; distant references and unrecognized continuations require review. Original note blocks retained; word counts exclude appended copies."
+}

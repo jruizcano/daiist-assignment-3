@@ -1,0 +1,42 @@
+{
+  "attempts": [
+    {
+      "run": "20261125T195435967301Z",
+      "source_words": 7099,
+      "preparation": "Full article body retained, including tables and notes. Website navigation removed; title and canonical URL added. No answer sentence or financial figure was generated.",
+      "before_status": "not_found",
+      "after_status": "blocked",
+      "current_source_context_check": false,
+      "quoted_year_and_units_complete": false,
+      "answer_model_cost_usd": 0.00409737,
+      "document_embedding_cost_usd": 0.0009960400000000001,
+      "cleanup_interruption_recorded": true
+    },
+    {
+      "run": "20261125T195705615150Z",
+      "source_words": 149,
+      "preparation": "Verbatim annual highlights table and its associated footnote table selected from the official release. All annual rows, year columns, units and associated notes retained. Labelled as an excerpt; title and canonical URL added. No answer sentence or financial figure was generated.",
+      "before_status": "not_found",
+      "after_status": "answered",
+      "current_source_context_check": true,
+      "quoted_year_and_units_complete": false,
+      "answer_model_cost_usd": 0.00377991,
+      "document_embedding_cost_usd": 3.094e-05,
+      "cleanup_interruption_recorded": false
+    },
+    {
+      "run": "20261125T200355554990Z",
+      "source_words": 149,
+      "preparation": "Verbatim annual highlights table and its associated footnote table selected from the official release. All annual rows, year columns, units and associated notes retained. Labelled as an excerpt; title and canonical URL added. No answer sentence or financial figure was generated.",
+      "before_status": "not_found",
+      "after_status": "blocked",
+      "current_source_context_check": false,
+      "quoted_year_and_units_complete": false,
+      "answer_model_cost_usd": 0.0043547,
+      "document_embedding_cost_usd": 3.094e-05,
+      "cleanup_interruption_recorded": false
+    }
+  ],
+  "all_attempts_model_and_document_embedding_cost_usd": 0.0132899,
+  "note": "Includes unsuccessful attempts; small query embedding charges are recorded separately in each attempt."
+}

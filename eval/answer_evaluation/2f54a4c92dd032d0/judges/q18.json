@@ -1,0 +1,45 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The final answer fully identifies the six competitor categories and provides representative examples from Airbnb's Competition for Guests subsection, matching the requested scope.",
+    "supported_reason": "All factual claims (categories and examples) are drawn from the retrieved Airbnb Business section; quotes align with 'Our competitors include' list of OTAs, search engines, listing/meta search sites, hotel chains, Chinese short-term rental competitors, and activity platforms.",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-92f977faf6bd7098055e",
+        "quote": "• OTAs, such as Booking Holdings, including the brands Booking.com, KAYAK, Priceline.com, and Agoda.com; Expedia Group, including the brands Expedia, Vrbo, HomeAway, Hotels.com, Orbitz, and Travelocity; Trip.com Group, including the brands Ctrip.com, Trip.com, Qunar, Tongcheng-eLong, and SkyScanner; Meituan Dianping; Fliggy, a subsidiary of Alibaba; Despegar; MakeMyTrip; and other regional OTAs;"
+      },
+      {
+        "chunk_id": "b_paragraph-92f977faf6bd7098055e",
+        "quote": "• Internet search engines, such as Google, including its travel search products; Baidu; and other regional search engines;"
+      },
+      {
+        "chunk_id": "b_paragraph-92f977faf6bd7098055e",
+        "quote": "• Listing and meta search websites, such as TripAdvisor, Trivago, Mafengwo, AllTheRooms.com, and Craigslist;"
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.00194177,
+  "usage": {
+    "prompt_tokens": 4853,
+    "completion_tokens": 4363,
+    "total_tokens": 9216,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3968,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "03023472e82bb40c65aa4acac9df855c03098b11549cf241edb8bf8bdde5043a",
+  "elapsed_seconds": 28.283813000001828
+}

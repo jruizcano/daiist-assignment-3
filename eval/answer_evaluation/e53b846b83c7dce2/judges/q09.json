@@ -1,0 +1,41 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The final answer states Airbnb is offering 50,000,000 Class A shares in the IPO, which matches the provided front-matter text in the retrieved passages (b_paragraph-2966e29f834f5e357bd7 and b_paragraph-01c6400b19fce3e6f720).",
+    "supported_reason": "All factual claims are directly supported by the retrieved passages which specify the issuer-offering count (50,000,000 shares) and clarify the presence of an additional 1,323,531 shares offered by selling stockholders (not part of Airbnb’s offering).",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "None",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-2966e29f834f5e357bd7",
+        "quote": "This is an initial public offering of shares of Class A common stock of Airbnb, Inc. We are offering 50,000,000 shares of our Class A common stock."
+      },
+      {
+        "chunk_id": "b_paragraph-01c6400b19fce3e6f720",
+        "quote": "Class A Common Stock 51,323,531 Shares\n\nThis is an initial public offering of shares of Class A common stock of Airbnb, Inc. We are offering 50,000,000 shares of our Class A common stock."
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.000364,
+  "usage": {
+    "prompt_tokens": 3328,
+    "completion_tokens": 494,
+    "total_tokens": 3822,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 192,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "e626283d06e4ac95aacf7b829ee5b462e247d5f06eaa35a473a81b579557d472",
+  "elapsed_seconds": 5.186681899998803
+}

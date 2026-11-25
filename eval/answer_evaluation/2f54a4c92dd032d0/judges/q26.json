@@ -1,0 +1,47 @@
+{
+  "status": "needs_review",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The final answer correctly treats the question as unanswerable with the retrieved documents, stating that there is insufficient evidence to determine actual use of IPO proceeds.",
+    "supported_reason": "The retrieved passages discuss intended uses and pro forma proceeds but do not provide evidence of actual spending, so asserting insufficient evidence is supported by the sources.",
+    "evidence_sufficiency": "none",
+    "failure_categories": [],
+    "failure_reason": "No failure category applies; this is an appropriate response when the question cannot be answered from the available documents.",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-8812844f4eb0a12b2a53",
+        "quote": "USE OF PROCEEDS We estimate that the net proceeds to us from the sale of shares of our Class A common stock in this offering will be approximately $3.27 billion, based upon the initial public offering price of $102.00 per share and after deducting underwriting discounts and commissions and our estimated offering expenses."
+      },
+      {
+        "chunk_id": "b_paragraph-12401047a771b958fa5a",
+        "quote": "We will not receive any of the proceeds from the sale of shares by the selling stockholders."
+      },
+      {
+        "chunk_id": "b_paragraph2966e29f834f5e357bd7",
+        "quote": "We will not receive any of the proceeds from the sale of shares by the selling stockholders."
+      }
+    ]
+  },
+  "validation_errors": [
+    "Judge evidence quote or chunk ID does not match"
+  ],
+  "cost_usd": 0.0026970699999999998,
+  "usage": {
+    "prompt_tokens": 6911,
+    "completion_tokens": 5994,
+    "total_tokens": 12905,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5696,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "18e7f100e2477c4e63fd3ac451a1bf3a7511361f7a4272a0bb3e7727597d09a4",
+  "elapsed_seconds": 37.41811510000116
+}

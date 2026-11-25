@@ -1,0 +1,43 @@
+{
+  "status": "needs_review",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "Gross IPO proceeds and estimated net proceeds match figures in Uber's IPO prospectus: gross proceeds of $8.1B and net proceeds of about $8.0B (excluding PayPal private placement and selling-stockholder proceeds).",
+    "supported_reason": "The final answer cites $8.1B gross proceeds derived from the IPO price ($45.00) and 180,000,000 shares, and notes approximately $8.0B net proceeds after deductions, which are explicitly stated in the retrieved Use of Proceeds section. The cited passages show (i) 180,000,000 shares at $45.00 and (ii) net proceeds approximately $8.0B after deductions.",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-12401047a771b958fa5a",
+        "quote": "Common Stock 180,000,000 Shares\n\nUber Technologies, Inc. is offering 180,000,000 shares of its common stock. The selling stockholders identified in this prospectus are offering 27,000,000 shares of common stock if and to the extent that the underwriters exercise their option to purchase additional shares described below. We will not receive any of the proceeds from the sale of shares by the selling stockholders. This is our initial public offering, and no public market currently exists for our shares. The initial public offering price is $45.00 per share."
+      },
+      {
+        "chunk_id": "b_paragraph-6767e3e276d10e4a5a3d",
+        "quote": "Estimated net proceeds from the offering to Uber will be approximately $8.0 billion after deducting the underwriting discounts and commissions and estimated offering expenses payable by Uber."
+      }
+    ]
+  },
+  "validation_errors": [
+    "Judge evidence quote or chunk ID does not match"
+  ],
+  "cost_usd": 0.0027648700000000004,
+  "usage": {
+    "prompt_tokens": 5027,
+    "completion_tokens": 6399,
+    "total_tokens": 11426,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6016,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "e14c15f4c38488178272994efb516aee89719f3b6bdc2a852a9e78c47192d554",
+  "elapsed_seconds": 36.83289220000006
+}

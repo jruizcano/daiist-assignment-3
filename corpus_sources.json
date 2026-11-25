@@ -1,0 +1,34 @@
+{
+  "description": "Initial IPO corpus: platform businesses. Retained word counts and personal-data review pending.",
+  "reuse_policy_url": "https://www.sec.gov/about/webmaster-frequently-asked-questions",
+  "reuse_basis": "SEC Webmaster FAQ states that EDGAR public filing content is free to access and reuse. This is a reuse-policy statement, not a named Creative Commons licence.",
+  "documents": [
+    {
+      "id": "airbnb_2020_ipo",
+      "company": "Airbnb",
+      "title": "Airbnb, Inc. final IPO prospectus",
+      "filing_type": "424B4",
+      "filing_date": "2020-12-11",
+      "filename": "airbnb_2020_ipo.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm"
+    },
+    {
+      "id": "doordash_2020_ipo",
+      "company": "DoorDash",
+      "title": "DoorDash, Inc. final IPO prospectus",
+      "filing_type": "424B4",
+      "filing_date": "2020-12-09",
+      "filename": "doordash_2020_ipo.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792789/000119312520313884/d752207d424b4.htm"
+    },
+    {
+      "id": "uber_2019_ipo",
+      "company": "Uber",
+      "title": "Uber Technologies, Inc. final IPO prospectus",
+      "filing_type": "424B4",
+      "filing_date": "2019-05-13",
+      "filename": "uber_2019_ipo.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm"
+    }
+  ]
+}

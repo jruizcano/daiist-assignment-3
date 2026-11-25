@@ -1,0 +1,25 @@
+{
+  "status": "needs_review",
+  "grade": null,
+  "validation_errors": [
+    "Malformed or incomplete judge response"
+  ],
+  "cost_usd": 0.00359215,
+  "usage": {
+    "prompt_tokens": 6307,
+    "completion_tokens": 8192,
+    "total_tokens": 14499,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 8192,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "39b8877d6226b5bb753ba8ceb86ec0b94c121f7a5af7dd388bfa6601b2e8ab4b",
+  "elapsed_seconds": 51.40245380000124
+}

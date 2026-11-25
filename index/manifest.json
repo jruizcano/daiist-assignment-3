@@ -1,0 +1,21 @@
+{
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "design_counts": {
+    "a_fixed": 3150,
+    "b_paragraph": 3206,
+    "c_heading_path": 3150
+  },
+  "unique_texts": 8650,
+  "total_input_tokens": 2865268,
+  "max_input_tokens": 3894,
+  "remaining_texts": 8650,
+  "remaining_tokens": 2865268,
+  "estimated_remaining_usd": 0.057305,
+  "status": "complete",
+  "provider": "openai",
+  "billed_tokens_saved_batches": 2865268,
+  "cost_usd_saved_batches": 0.057305,
+  "price_usd_per_million_tokens": 0.02,
+  "assignment_deviation": "OpenAI embeddings instead of Gemini, explicitly requested by user."
+}

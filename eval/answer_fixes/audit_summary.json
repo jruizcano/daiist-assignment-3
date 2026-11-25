@@ -1,0 +1,7 @@
+{
+  "original_blocked_answers": 8,
+  "original_flagged_judges": 11,
+  "blocked_answers_with_exact_link_repairs": 5,
+  "blocked_answers_passing_checks_after_exact_relink_only": 3,
+  "note": "Offline replay of identical old drafts, not a new answer generation or semantic accuracy assessment."
+}

@@ -1,0 +1,122 @@
+
+> <ide_opened_file>The user opened the file
+  c:\Users\justo\data_Assignment3\SETUP.md in the IDE. This may or may not be
+  related to the current task.</ide_opened_file>
+
+> Use the corpus-researcher subagent to answer this question:
+
+  What final IPO offer price per share is stated in Airbnb’s prospectus?
+
+  Have the subagent use only the corpus MCP search tool as its evidence.
+  Include the supporting quotation, chunk ID, and original source URL.
+  Do not read the evaluation files or reference answers.
+  Do not modify any project files.
+
+● I'll hand this to the corpus-researcher subagent. It can only use the corpus
+  search tool.
+
+● corpus-researcher(Find Airbnb IPO offer price)
+  ⎿  Backgrounded agent (↓ to manage · ctrl+o to expand)
+
+● The corpus-researcher subagent is searching the corpus now. I'll pass on its
+  answer, with the quotation, chunk ID and source URL, once it reports back.
+
+› Message from corpus-researcher
+  **Status: answered.** Airbnb's prospectus gives a final initial public
+  offering price of **$68.00 per share** in the cover text and **$68.0000** in
+  the per-share column of the cover pricing table, for Class A common stock.
+
+  This is the final prospectus, not a preliminary one. The section heading is
+  "Filed Pursuant to Rule 424(b)(4) Registration No. 333-250118" and the URL
+  ends in d81668d424b4.htm. The price is stated as fixed ("The initial public
+  offering price is $68.00 per share."), not as an estimated range or assumed
+  midpoint. One search was enough, so I didn't run a follow-up.
+
+  **Evidence**
+
+  Document: airbnb_2020_ipo (Airbnb, Front matter, 424(b)(4) final prospectus)
+  Source URL for both chunks: https://www.sec.gov/Archives/edgar/data/1559720/00
+  0119312520315318/d81668d424b4.htm
+
+  1. Chunk ID b_paragraph-01c6400b19fce3e6f720 (prose)
+     - Heading quote: "Filed Pursuant to Rule 424(b)(4) Registration No.
+  333-250118"
+     - Quote: "The initial public offering price is $68.00 per share."
+     - Quote: "We are offering 50,000,000 shares of our Class A common stock."
+     - Quote: "The selling stockholders identified in this prospectus are
+  offering 1,323,531 shares of Class A common stock."
+
+  2. Chunk ID b_paragraph-2966e29f834f5e357bd7 (cover pricing table; it repeats
+  the same cover sentence)
+     - Quote (sentence): "The initial public offering price is $68.00 per
+  share."
+     - Column header row: " |  | Per Share | Per Share |  |  | Total | Total | "
+     - Row: "Initial public offering price |  | $ | 68.0000 |  |  | $ |
+  3,490,000,108 | "
+     - Row: "Underwriting discounts and commissions (1) |  | $ | 1.4416 |  |  |
+  $ | 73,988,002 | "
+     - Row: "Proceeds to us, before expenses |  | $ | 66.5584 |  |  | $ |
+  3,327,920,000 | "
+     - Row: "Proceeds to selling stockholders, before expenses |  | $ | 66.5584
+  |  |  | $ | 88,092,106 | "
+     - Attached footnote (1): "See the section titled “Underwriting” for a
+  description of the compensation payable to the underwriters."
+     - Units: the table has only "$" signs. There is no separate unit line, so
+  the per-share values are in dollars per share and the totals in dollars.
+
+  **Every per-share figure I saw, to keep them apart**
+  - Final IPO price: $68.00 (cover text) / $68.0000 (table). This is the answer.
+  - Underwriting discounts and commissions: $1.4416 per share.
+  - Proceeds to Airbnb, before expenses: $66.5584 per share. This is after the
+  underwriting discount but before other offering expenses, so it is neither
+  gross proceeds nor final net proceeds.
+  - Proceeds to selling stockholders, before expenses: $66.5584 per share.
+  - No estimated price range or assumed midpoint appeared in the results.
+  - Not relevant to the IPO price: a $0.0001 par value per share appears in
+  chunk b_paragraph-2866cbda92f037b02c93, in the financial statement notes.
+
+  **If the main thread needs proceeds totals**
+  - The table's total "Initial public offering price" of $3,490,000,108 covers
+  all 51,323,531 shares, including the selling stockholders' 1,323,531. It is
+  not Airbnb's own gross proceeds.
+  - Airbnb's own gross proceeds aren't stated directly in what I retrieved. They
+  would have to be calculated: 50,000,000 shares × $68.00 = $3,400,000,000.
+  Both inputs are cited above.
+  - The $3,327,920,000 "Proceeds to us, before expenses" figure is after
+  underwriting discounts and must not be called gross proceeds.
+  - Final net proceeds after other offering expenses did not appear in these
+  results.
+
+  Other chunks returned but not used: b_paragraph-feb651776d291e49752d
+  ("Underwriting – Pricing of the Offering", which explains how the price was
+  negotiated and gives no figure) and b_paragraph-e67b4558abd5496eed73
+  ("Principal and Selling Stockholders").
+
+● Airbnb's final IPO offer price is $68.00 per share of Class A common stock.
+
+  Evidence
+
+  - Quotation: "The initial public offering price is $68.00 per share."
+  - Chunk ID: b_paragraph-01c6400b19fce3e6f720
+  - Source URL: https://www.sec.gov/Archives/edgar/data/1559720/0001193125203153
+    18/d81668d424b4.htm
+
+  The pricing table on the cover page (chunk b_paragraph-2966e29f834f5e357bd7,
+  same URL) repeats the sentence above and gives the same figure. The table
+  quotes below are separate lines, kept exactly as they appear in the source:
+
+  - Column header row: " |  | Per Share | Per Share |  |  | Total | Total | "
+  - Price row: "Initial public offering price |  | $ | 68.0000 |  |  | $ |
+    3,490,000,108 | "
+
+  Why it's the final price, not an estimate: the document is the final
+  prospectus. Its heading reads "Filed Pursuant to Rule 424(b)(4) Registration
+  No. 333-250118", and the price is stated as fixed. No estimated price range or
+  assumed midpoint came up in the results.
+
+  The subagent used only the corpus search tool and needed one search. I haven't
+  re-checked its quotations myself, so treat them as reported by the subagent.
+  No evaluation files or reference answers were read, and no project files were
+  changed.
+
+● Agent "Find Airbnb IPO offer price" finished · 20s

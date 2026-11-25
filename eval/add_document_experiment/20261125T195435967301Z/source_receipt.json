@@ -1,0 +1,10 @@
+{
+  "url": "https://investor.uber.com/news-events/news/press-release-details/2020/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2019/default.aspx",
+  "publication_date": "2020-02-06",
+  "title": "Uber Announces Results for Fourth Quarter and Full Year 2019",
+  "raw_sha256": "6e3c32db985058d4f57d2b14e7dd345304be1ad9154bceb20afaabdf887eab88",
+  "prepared_sha256": "f4a3954d79047f5ac05b8f0c49cc94f37fceb0e787b765a84f38be3747adf840",
+  "article_words": 7099,
+  "table_count": 25,
+  "preparation": "Full article body retained, including tables and notes. Website navigation removed; title and canonical URL added. No answer sentence or financial figure was generated."
+}

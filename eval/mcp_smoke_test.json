@@ -1,0 +1,45 @@
+{
+  "test": "search_and_duplicate",
+  "created_utc": "2026-11-25T18:12:55.707887+00:00",
+  "checks": [
+    "stdio initialization and tool discovery",
+    "original prospectus duplicate skipped",
+    "five results with citations",
+    "original corpus vectors unchanged"
+  ],
+  "tools": [
+    "add_document",
+    "search"
+  ],
+  "search": {
+    "query": "What revenue did Airbnb report for the year ended December 31 2019",
+    "design": "b_paragraph",
+    "result_count": 5,
+    "top_result": {
+      "id": "b_paragraph-a8e7d8b80a11d0aa903d",
+      "document_id": "airbnb_2020_ipo",
+      "company": "Airbnb",
+      "section": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "heading_path": [
+        "Airbnb",
+        "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "Our Business Model"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm",
+      "citation_url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm#toc81668_10",
+      "source_block_ids": [
+        "airbnb_2020_ipo-b00925",
+        "airbnb_2020_ipo-b00926",
+        "airbnb_2020_ipo-b00927"
+      ],
+      "attached_note_ids": [],
+      "unresolved_footnotes": [],
+      "kind": "prose",
+      "text": "Our business model relies on the success of hosts and guests who join our community and generate consistent bookings over time. As hosts become more successful on our platform and as guests return over time, we benefit from the recurring activity of our community. For example, in 2019, 84% of our revenue resulted from stays with existing hosts who had completed at least one guest check-in on or before December 31, 2018, up from 82% in 2018 and 77% in 2017. In addition, 69% of our revenue in 2019 was generated from stays in that year by repeat guests, defined as guests with at least one prior booking, up from 66% in 2018 and 62% in 2017. We track revenue from existing hosts and guests based on revenue before adjustments for incentives and refunds, as we do not track contra-revenue adjustments by host and guest cohort. Incentives include our referral programs and marketing promotions to encourage the use of our platform and attract new customers, while our refunds to customers are part of our customer support activities. We believe such revenue generated from stays is the best available indicator of host and guest retention.\n\nWe experienced rapid growth since our founding through 2019. In 2019, we generated GBV of $38.0 billion, representing growth of 29% from $29.4 billion in 2018, and revenue of $4.8 billion, representing growth of 32% from $3.7 billion in 2018. During the nine months ended September 30, 2020, our business was materially impacted by the COVID-19 pandemic, with GBV of $18.0 billion, down 39% year over year and revenue of $2.5 billion, down 32% year over year.\n\nOur GBV of $38.0 billion in 2019 consisted of $31.3 billion in host earnings, $5.3 billion in service fees for Airbnb, and $1.4 billion in taxes to our communities, consisting primarily of lodging taxes that we collect and remit to tax authorities. We recognize revenue upon check-in for a stay or experience from service fees charged to hosts and guests. We calculate Airbnb service fees based on a percentage of the booking value, exclusive of taxes.",
+      "rank": 1,
+      "score": 0.6856673955917358
+    }
+  },
+  "status": "passed",
+  "temporary_test_index_removed": false
+}

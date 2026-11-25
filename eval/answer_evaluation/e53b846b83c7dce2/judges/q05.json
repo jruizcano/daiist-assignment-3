@@ -1,0 +1,45 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "All three requested risk examples from DoorDash's Risk Factors Summary are identified and correctly quoted from the retrieved passages.",
+    "supported_reason": "Each factual claim (limited operating history, history of net losses, and risk of adverse effects if Dashers are reclassified as employees) is directly supported by the retrieved DoorDash Risk Factors Summary passages.",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-dc38b3fb856fb90b5eef",
+        "quote": "We have a limited operating history in an evolving industry, which makes it difficult to evaluate our future prospects and may increase the risk that we will not be successful."
+      },
+      {
+        "chunk_id": "b_paragraph-bebfd2d01896a0a24753",
+        "quote": "We have a history of net losses, we anticipate increasing expenses in the future, and we may not be able to maintain or increase profitability in the future;"
+      },
+      {
+        "chunk_id": "b_paragraph-998c43d1eaabbd917fd6",
+        "quote": "If Dashers are reclassified as employees under federal or state law, our business, financial condition, and results of operations would be adversely affected."
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.0005283,
+  "usage": {
+    "prompt_tokens": 5350,
+    "completion_tokens": 652,
+    "total_tokens": 6002,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 384,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "2213e7be510720a8378ee714caef8a39a1d211503e7ab3cf5b746e62ffc0d13d",
+  "elapsed_seconds": 5.270763300002727
+}

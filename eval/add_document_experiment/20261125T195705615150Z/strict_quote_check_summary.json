@@ -1,0 +1,39 @@
+{
+  "question_id": "q03",
+  "question": "What revenue did Uber report for the year ended December 31, 2019?",
+  "run_id": "20261125T195705615150Z",
+  "run_folder": "eval\\add_document_experiment\\20261125T195705615150Z",
+  "source_url": "https://investor.uber.com/news-events/news/press-release-details/2020/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2019/default.aspx",
+  "source_words": 149,
+  "before_status": "not_found",
+  "after_status": "answered",
+  "before_refused": true,
+  "after_cites_new_document_and_expected_amount": false,
+  "new_document_in_first_search": true,
+  "duplicate_skipped_without_embeddings": true,
+  "addition": {
+    "status": "added",
+    "document_id": "added_f4563c12896f9947923d6017",
+    "source_url": "https://investor.uber.com/news-events/news/press-release-details/2020/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2019/default.aspx",
+    "chunks_by_design": {
+      "a_fixed": 3,
+      "b_paragraph": 3,
+      "c_heading_path": 3
+    },
+    "new_vectors": 7,
+    "embedding_tokens": 1547,
+    "embedding_cost_usd": 3.094e-05,
+    "index_MB": 77.309
+  },
+  "answer_model_cost_usd": 0.00377991,
+  "query_embedding_tokens": 128,
+  "query_embedding_cost_usd": 2.56e-06,
+  "agent_seconds": {
+    "before": 15.996466399999917,
+    "after": 16.50737520000257
+  },
+  "limitation": "One before/after case, not overall accuracy. The document reports 2019 results as originally published in 2020; later restatements are outside this experiment.",
+  "original_index_and_evaluation_unchanged": true,
+  "temporary_index_removed": true,
+  "passed": false
+}

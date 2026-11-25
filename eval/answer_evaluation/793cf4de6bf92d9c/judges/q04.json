@@ -1,0 +1,39 @@
+{
+  "status": "needs_review",
+  "grade": {
+    "correct": 0,
+    "supported": 1,
+    "correct_reason": "Response did not meet the request: asked for three examples of risks from Uber's Summary Risk Factors, but provided only one example.",
+    "supported_reason": "The one risk cited is directly supported by the Uber Prospectus Summary Risk Factors text.",
+    "evidence_sufficiency": "partial",
+    "failure_categories": [],
+    "failure_reason": "Answer incomplete: three examples requested; only one example supplied.",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-f63c1e6cf90beec32844",
+        "quote": "• The personal mobility, meal delivery, and logistics industries are highly competitive, with well-established and low-cost alternatives that have been available for decades, low barriers to entry, low switching costs, and well-capitalized competitors in nearly every major geographic region."
+      }
+    ]
+  },
+  "validation_errors": [
+    "Incorrect grade requires a failure diagnosis"
+  ],
+  "cost_usd": 0.0014766000000000002,
+  "usage": {
+    "prompt_tokens": 6108,
+    "completion_tokens": 2928,
+    "total_tokens": 9036,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2752,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "1b989087f2c3d2bf75f0277478295515dc98b39bc0bc7759bdb16cc365bd2bf8",
+  "elapsed_seconds": 17.88023670000257
+}

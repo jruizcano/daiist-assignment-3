@@ -1,0 +1,37 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The answer correctly states the final IPO offer price per share as $102.00, which matches the prospectus' initial public offering price cited in retrieved passages.",
+    "supported_reason": "The price claim is directly supported by the retrieved DoorDash prospectus text showing Initial public offering price of $102.00 per share.",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-d95ac10cf359a9ca8749",
+        "quote": "Initial public offering price |  | $ | 102.00 |  |  | $ | 3,366,000,000 |"
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.00086782,
+  "usage": {
+    "prompt_tokens": 3198,
+    "completion_tokens": 1885,
+    "total_tokens": 5083,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1728,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "4273c9c411169e4ad271da2db56d439d0926ba860f0a5aea7b88bf65f1bebbb5",
+  "elapsed_seconds": 11.210914300001605
+}

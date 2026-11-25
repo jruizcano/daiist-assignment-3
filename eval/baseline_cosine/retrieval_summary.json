@@ -1,0 +1,112 @@
+{
+  "stage": "retrieval_only",
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "question_counts": {
+    "single": 18,
+    "unanswerable": 5,
+    "multi": 7
+  },
+  "questions_sha256": "b97327e631fa02d411afea6176cfa810d3914059b83896396990c43fb90ed714",
+  "method": "Unfiltered cosine search across all three documents; identical question vectors for all designs; no reranking.",
+  "metric": "Section hit@k requires expected document AND expected section on the same returned chunk. Broad-section proxy only.",
+  "multi_document_metric": "Each expected document must have a section-matching chunk. Does not prove all claims/passages are present.",
+  "limitations": [
+    "Exact passage relevance and full multi-passage sufficiency require human review.",
+    "Alternative correct sections absent from expected_location may count as misses.",
+    "Unanswerable questions are retrieved for inspection but excluded from hit rates; refusals need the agent stage.",
+    "The same 30 questions are used for design comparison; this is not held-out performance."
+  ],
+  "query_embedding_or_cache_seconds": 0.01422339999999167,
+  "designs": {
+    "a_fixed": {
+      "1": {
+        "section_hits": 14,
+        "answerable_questions": 25,
+        "section_hit_rate": 0.56,
+        "multi_document_all_source_hits": 0,
+        "multi_document_questions": 4,
+        "multi_document_all_source_rate": 0.0,
+        "mean_retrieved_words": 273.93333333333334
+      },
+      "3": {
+        "section_hits": 19,
+        "answerable_questions": 25,
+        "section_hit_rate": 0.76,
+        "multi_document_all_source_hits": 0,
+        "multi_document_questions": 4,
+        "multi_document_all_source_rate": 0.0,
+        "mean_retrieved_words": 768.5666666666667
+      },
+      "5": {
+        "section_hits": 20,
+        "answerable_questions": 25,
+        "section_hit_rate": 0.8,
+        "multi_document_all_source_hits": 1,
+        "multi_document_questions": 4,
+        "multi_document_all_source_rate": 0.25,
+        "mean_retrieved_words": 1281.8
+      }
+    },
+    "b_paragraph": {
+      "1": {
+        "section_hits": 17,
+        "answerable_questions": 25,
+        "section_hit_rate": 0.68,
+        "multi_document_all_source_hits": 0,
+        "multi_document_questions": 4,
+        "multi_document_all_source_rate": 0.0,
+        "mean_retrieved_words": 249.43333333333334
+      },
+      "3": {
+        "section_hits": 20,
+        "answerable_questions": 25,
+        "section_hit_rate": 0.8,
+        "multi_document_all_source_hits": 1,
+        "multi_document_questions": 4,
+        "multi_document_all_source_rate": 0.25,
+        "mean_retrieved_words": 673.8
+      },
+      "5": {
+        "section_hits": 22,
+        "answerable_questions": 25,
+        "section_hit_rate": 0.88,
+        "multi_document_all_source_hits": 3,
+        "multi_document_questions": 4,
+        "multi_document_all_source_rate": 0.75,
+        "mean_retrieved_words": 1132.3333333333333
+      }
+    },
+    "c_heading_path": {
+      "1": {
+        "section_hits": 16,
+        "answerable_questions": 25,
+        "section_hit_rate": 0.64,
+        "multi_document_all_source_hits": 0,
+        "multi_document_questions": 4,
+        "multi_document_all_source_rate": 0.0,
+        "mean_retrieved_words": 242.43333333333334
+      },
+      "3": {
+        "section_hits": 20,
+        "answerable_questions": 25,
+        "section_hit_rate": 0.8,
+        "multi_document_all_source_hits": 0,
+        "multi_document_questions": 4,
+        "multi_document_all_source_rate": 0.0,
+        "mean_retrieved_words": 732.0
+      },
+      "5": {
+        "section_hits": 22,
+        "answerable_questions": 25,
+        "section_hit_rate": 0.88,
+        "multi_document_all_source_hits": 0,
+        "multi_document_questions": 4,
+        "multi_document_all_source_rate": 0.0,
+        "mean_retrieved_words": 1301.0
+      }
+    }
+  },
+  "query_cache_lifetime_tokens": 582,
+  "query_cache_lifetime_cost_usd": 1.164e-05
+}

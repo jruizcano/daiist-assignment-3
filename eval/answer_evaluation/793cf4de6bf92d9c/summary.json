@@ -1,0 +1,56 @@
+{
+  "questions_total": 30,
+  "answers_saved": 30,
+  "judge_valid_grades": 20,
+  "judge_needs_review": 5,
+  "operational_failures_or_blocks": 5,
+  "judge_correct": 17,
+  "correct_rate_over_all_questions": null,
+  "correct_rate_among_valid_judge_grades": 0.85,
+  "unsupported_final_answers": 1,
+  "unsupported_rate_among_valid_judge_grades": 0.05,
+  "unanswerable_questions": 5,
+  "correct_refusals": 4,
+  "answerable_questions": 25,
+  "answerable_refusal_count": 4,
+  "failure_category_counts": {
+    "wrong_answer_from_right_passage": 1,
+    "wrong_refusal": 1,
+    "unsupported_claim": 1,
+    "retrieval_miss": 1,
+    "guardrail_block": 5
+  },
+  "human_answers_graded": 30,
+  "human_minimum_met": true,
+  "human_judge_agreement": {
+    "paired_answers": 20,
+    "correct": {
+      "agree": 18,
+      "total": 20,
+      "agreement": 0.9,
+      "confusion_counts": {
+        "human_1_judge_1": 15,
+        "human_0_judge_0": 3,
+        "human_0_judge_1": 2
+      },
+      "cohen_kappa": 0.6923076923076924
+    },
+    "supported": {
+      "agree": 19,
+      "total": 20,
+      "agreement": 0.95,
+      "confusion_counts": {
+        "human_1_judge_1": 18,
+        "human_0_judge_0": 1,
+        "human_0_judge_1": 1
+      },
+      "cohen_kappa": 0.6428571428571426
+    }
+  },
+  "answer_model_cost_usd": 0.06561971,
+  "judge_model_cost_usd": 0.03883322,
+  "mean_agent_seconds": 22.56369150000052,
+  "note": "AI grades, not verified accuracy. Failure categories overlap. Refusal counts are not necessarily correct refusals. Same questions used for design selection; no held-out set.",
+  "dataset": "793cf4de6bf92d9cac995c34a877203cc580669e115ae8eb2eac1f49faa333e4",
+  "warnings": []
+}

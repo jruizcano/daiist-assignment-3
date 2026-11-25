@@ -1,0 +1,41 @@
+{
+  "status": "graded",
+  "grade": {
+    "correct": 1,
+    "supported": 1,
+    "correct_reason": "The answer states the final IPO offer price per share as $45.00, which is exactly the price stated in Uber's prospectus front matter as the initial public offering price per share ($45.00).",
+    "supported_reason": " retrieved passages explicitly state the price as $45.00 per share (initial public offering price), which the answer reports as the final offer price; the figure matches the cited tables in the prospectus.",
+    "evidence_sufficiency": "full",
+    "failure_categories": [],
+    "failure_reason": "",
+    "evidence": [
+      {
+        "chunk_id": "b_paragraph-12401047a771b958fa5a",
+        "quote": "The initial public offering price is $45.00 per share."
+      },
+      {
+        "chunk_id": "b_paragraph-783e0488b606b98d318c",
+        "quote": "Public offering price |  | $ | 45.00 |  |  | $ | 8,100,000,000 |"
+      }
+    ]
+  },
+  "validation_errors": [],
+  "cost_usd": 0.00045235,
+  "usage": {
+    "prompt_tokens": 4095,
+    "completion_tokens": 619,
+    "total_tokens": 4714,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 384,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cache_key": "1e1a38a9866ffbd5cb9d8ae55cc8d5a616c55443f6d7e3db32b3d2bf287a0fe5",
+  "elapsed_seconds": 6.147869399999763
+}
